@@ -572,7 +572,7 @@
             </div>
             <div class="l-header__inner">
                 <div class="l-header__logo-wrapper">
-                    <a class="l-header__icon c-icon " href="index.html">
+                    <a class="l-header__icon c-icon " href="{{ route('index') }}">
                       <h3 style="color: #d02a2b; font-weight: bolder">Market Bridge</h3>
                     </a>
                 </div>
@@ -584,8 +584,8 @@
                             </a>
                         </li>
                         <li class="c-nav__item c-nav__item--level-0 c-nav__item-2  menu-item menu-item-type-post_type menu-item-object-page menu-item-746 menu-item-has-children" style="transition-delay: .2s">
-                            <a href="the-best-online-trading-platforms/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-746 menu-item-has-children">
-                                <span class="c-nav__link-text">Why Cobra?</span>
+                            <a href="{{ route('why_us') }}" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-746 menu-item-has-children">
+                                <span class="c-nav__link-text">Why MB?</span>
                                 <span class="c-nav__arrow c-arrow-toggle">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.74421 0.744211L5.37207 5.11635L0.99993 0.744211" stroke="#D02A2B" stroke-width="2" />
@@ -594,8 +594,8 @@
                             </a>
                             <ul class="c-nav__sub-menu c-nav__sub-menu--level-0">
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2028" style="transition-delay: .s">
-                                    <a href="the-best-online-trading-platforms/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2028">
-                                        <span class="c-nav__link-text">Why Cobra?</span>
+                                    <a href="{{ route('why_us') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2028">
+                                        <span class="c-nav__link-text">Why MB?</span>
                                     </a>
                                 </li>
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2026" style="transition-delay: .s">

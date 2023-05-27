@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'pages.index')->name('index');
+Route::view('/the-best-online-trading-platforms', 'pages.why-us')->name('why_us');
 
 
 Auth::routes(['verify' => true]);
