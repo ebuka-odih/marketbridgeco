@@ -18,7 +18,7 @@
     <meta property="og:image" content="social-image.png" >
     <meta name="format-detection" content="telephone=no">
     <!-- PAGE TITLE HERE -->
-    <title>Salreo Crypto Trading UI Admin</title>
+    <title>Register | {{ env('APP_NAME') }}</title>
     <!-- FAVICONS ICON -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" >
     <link href="{{ asset('client/vendor/wow-master/css/libs/animate.css') }}" rel="stylesheet">
