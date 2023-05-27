@@ -1,0 +1,1903 @@
+<?xml version="1.0"?>
+<heldOrderRoutingPublicReport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!--Surveyor Report ID: 089be47c-8210-45da-9e7f-2f8f6ca394ea-->
+  <version>1.2</version>
+  <bd>Cobra Trading, Inc.</bd>
+  <year>2021</year>
+  <qtr>4</qtr>
+  <rMonthly>
+    <year>2021</year>
+    <mon>10</mon>
+    <rSP500>
+      <ndoPct>23.37</ndoPct>
+      <ndoMarketPct>16.85</ndoMarketPct>
+      <ndoMarketableLimitPct>36.72</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>44.72</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.71</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PDQSMART)</name>
+          <orderPct>41.20</orderPct>
+          <marketPct>9.00</marketPct>
+          <marketableLimitPct>5.05</marketableLimitPct>
+          <nonMarketableLimitPct>27.15</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-81.18</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-49.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-108.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PDQSMART $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (SMART)</name>
+          <orderPct>13.20</orderPct>
+          <marketPct>3.56</marketPct>
+          <marketableLimitPct>5.80</marketableLimitPct>
+          <nonMarketableLimitPct>3.67</nonMarketableLimitPct>
+          <otherPct>0.17</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>113.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>96.08</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>7.4450</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays SMART $0.25 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>VIRTU AMERICAS, LLC. (FAN)</name>
+          <orderPct>12.73</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>5.35</marketableLimitPct>
+          <nonMarketableLimitPct>7.36</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>20.87</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays FAN $0.05 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>11.90</orderPct>
+          <marketPct>1.73</marketPct>
+          <marketableLimitPct>8.94</marketableLimitPct>
+          <nonMarketableLimitPct>1.24</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-30.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.4000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-49.71</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.4000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-5.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.4000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.4000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PSMT)</name>
+          <orderPct>8.51</orderPct>
+          <marketPct>1.98</marketPct>
+          <marketableLimitPct>5.16</marketableLimitPct>
+          <nonMarketableLimitPct>1.36</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-11.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-39.93</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PSMT $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>6.40</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.29</marketableLimitPct>
+          <nonMarketableLimitPct>2.11</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>226.1400</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>594.07</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>226.1400</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>130.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>226.1400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>226.1400</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (CODAREB)</name>
+          <orderPct>5.18</orderPct>
+          <marketPct>0.32</marketPct>
+          <marketableLimitPct>1.98</marketableLimitPct>
+          <nonMarketableLimitPct>1.34</nonMarketableLimitPct>
+          <otherPct>1.54</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-10.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-2.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2.5942</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from CODAREB $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (SPDRX)</name>
+          <orderPct>0.70</orderPct>
+          <marketPct>0.23</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.45</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>2.93</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.9500</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.9500</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.87</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.9500</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.5634</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.9500</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SPDRX order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SPDRX $0.09 per 100 shares to Cobra Trading paying SPDRX $0.28 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (HEAT)</name>
+          <orderPct>0.15</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.13</marketableLimitPct>
+          <nonMarketableLimitPct>0.02</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.6300</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.26</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.6300</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.6300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.6300</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all HEAT order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying HEAT $0.08 per 100 shares to Cobra Trading paying HEAT $0.23 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP10)</name>
+          <orderPct>0.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.02</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP10 $0.06 per 100 shares to Cobra Trading paying TWP10 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>20.27</ndoPct>
+      <ndoMarketPct>10.14</ndoMarketPct>
+      <ndoMarketableLimitPct>36.50</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>53.17</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.19</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>VIRTU AMERICAS, LLC. (FAN)</name>
+          <orderPct>43.19</orderPct>
+          <marketPct>0.22</marketPct>
+          <marketableLimitPct>11.44</marketableLimitPct>
+          <nonMarketableLimitPct>31.53</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>917.40</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>8257.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>10814.12</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays FAN $0.05 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PSMT)</name>
+          <orderPct>21.53</orderPct>
+          <marketPct>4.07</marketPct>
+          <marketableLimitPct>10.82</marketableLimitPct>
+          <nonMarketableLimitPct>6.64</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-3438.55</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8876.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1180.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PSMT $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>18.07</orderPct>
+          <marketPct>2.65</marketPct>
+          <marketableLimitPct>6.28</marketableLimitPct>
+          <nonMarketableLimitPct>9.14</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1891.24</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.4000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-6707.64</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.4000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1038.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.4000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.4000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (SMART)</name>
+          <orderPct>12.32</orderPct>
+          <marketPct>2.41</marketPct>
+          <marketableLimitPct>6.18</marketableLimitPct>
+          <nonMarketableLimitPct>3.60</nonMarketableLimitPct>
+          <otherPct>0.12</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>11385.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>64749.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>30316.28</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1430.6725</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays SMART $0.25 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PDQSMART)</name>
+          <orderPct>1.39</orderPct>
+          <marketPct>0.32</marketPct>
+          <marketableLimitPct>0.17</marketableLimitPct>
+          <nonMarketableLimitPct>0.90</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-116.73</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-97.18</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-155.90</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PDQSMART $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (HEAT)</name>
+          <orderPct>0.67</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.36</marketableLimitPct>
+          <nonMarketableLimitPct>0.30</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.01</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.6300</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>113.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.6300</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>18.34</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.6300</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.6300</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all HEAT order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying HEAT $0.08 per 100 shares to Cobra Trading paying HEAT $0.23 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (REBATE)</name>
+          <orderPct>0.50</orderPct>
+          <marketPct>0.04</marketPct>
+          <marketableLimitPct>0.21</marketableLimitPct>
+          <nonMarketableLimitPct>0.25</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-6.45</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-6.9200</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-269.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-6.9200</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-83.21</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-6.9200</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-6.9200</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all REBATE order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from REBATE $0.10 per 100 shares to Cobra Trading receiving from REBATE $0.067 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (VWAP)</name>
+          <orderPct>0.49</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.21</marketableLimitPct>
+          <nonMarketableLimitPct>0.26</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-365.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-28.01</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-16285.69</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all VWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from VWAP $0.05 per 100 shares to Cobra Trading paying VWAP $0.01 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PMID)</name>
+          <orderPct>0.47</orderPct>
+          <marketPct>0.18</marketPct>
+          <marketableLimitPct>0.17</marketableLimitPct>
+          <nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-25.69</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-104.58</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-101.16</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays PMID $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (CODAREB)</name>
+          <orderPct>0.46</orderPct>
+          <marketPct>0.19</marketPct>
+          <marketableLimitPct>0.13</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>0.07</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-142.52</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-94.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-13.57</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-11.5066</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from CODAREB $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (SPDRX)</name>
+          <orderPct>0.31</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.24</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.17</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.9500</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>612.75</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.9500</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>116.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.9500</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>705.7989</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.9500</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SPDRX order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SPDRX $0.09 per 100 shares to Cobra Trading paying SPDRX $0.28 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>0.16</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.10</marketableLimitPct>
+          <nonMarketableLimitPct>0.06</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>226.1400</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>401.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>226.1400</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>120.56</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>226.1400</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>226.1400</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP30)</name>
+          <orderPct>0.12</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-106.07</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8.16</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1371.54</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP30 $0.06 per 100 shares to Cobra Trading paying TWP30 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWAP)</name>
+          <orderPct>0.08</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-244.98</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-4.20</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1715.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWAP $0.06 per 100 shares to Cobra Trading paying TWAP $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP10)</name>
+          <orderPct>0.07</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.05</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-993.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.74</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-952.87</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP10 $0.06 per 100 shares to Cobra Trading paying TWP10 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP20)</name>
+          <orderPct>0.05</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-26.38</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3.56</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-463.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP20 $0.06 per 100 shares to Cobra Trading paying TWP20 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP2)</name>
+          <orderPct>0.04</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-90.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-134.49</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP2 $0.06 per 100 shares to Cobra Trading paying TWP2 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (DRK)</name>
+          <orderPct>0.04</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-21.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3.94</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DRK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying DRK $0.04 per 100 shares to Cobra Trading paying DRK $0.10 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (STRK)</name>
+          <orderPct>0.03</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.02</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1498.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>9.21</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all STRK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying STRK $0.00 per 100 shares to Cobra Trading paying STRK $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP5)</name>
+          <orderPct>0.02</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-328.70</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-3.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-49.31</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-3.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-3.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP5 $0.06 per 100 shares to Cobra Trading paying TWP5 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (SMOK)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>82.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SMOK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SMOK $0.00 per 100 shares to Cobra Trading paying SMOK $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>82.24</ndoPct>
+      <ndoMarketPct>4.43</ndoMarketPct>
+      <ndoMarketableLimitPct>21.71</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>73.67</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.18</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>82.37</orderPct>
+          <marketPct>4.36</marketPct>
+          <marketableLimitPct>13.40</marketableLimitPct>
+          <nonMarketableLimitPct>64.61</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>76.71</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>2.2614</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>4283.43</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>2.2614</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>4834.81</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>2.2614</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>2.2614</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (MLCLSWP)</name>
+          <orderPct>9.77</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>6.13</marketableLimitPct>
+          <nonMarketableLimitPct>3.45</nonMarketableLimitPct>
+          <otherPct>0.18</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>450.25</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>56.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>1.7500</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all option order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays MLCLSWP $5.00 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>7.54</orderPct>
+          <marketPct>0.07</marketPct>
+          <marketableLimitPct>2.17</marketableLimitPct>
+          <nonMarketableLimitPct>5.30</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-303.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-243.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2021</year>
+    <mon>11</mon>
+    <rSP500>
+      <ndoPct>21.74</ndoPct>
+      <ndoMarketPct>14.93</ndoMarketPct>
+      <ndoMarketableLimitPct>41.47</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>42.12</ndoNonmarketableLimitPct>
+      <ndoOtherPct>1.48</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>VIRTU AMERICAS, LLC. (FAN)</name>
+          <orderPct>24.51</orderPct>
+          <marketPct>0.07</marketPct>
+          <marketableLimitPct>7.19</marketableLimitPct>
+          <nonMarketableLimitPct>17.26</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>8.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>51.85</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>54.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays FAN $0.05 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (SMART)</name>
+          <orderPct>18.90</orderPct>
+          <marketPct>3.35</marketPct>
+          <marketableLimitPct>11.53</marketableLimitPct>
+          <nonMarketableLimitPct>3.62</nonMarketableLimitPct>
+          <otherPct>0.40</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>106.71</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>641.61</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>106.14</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3.1300</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays SMART $0.25 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PDQSMART)</name>
+          <orderPct>18.02</orderPct>
+          <marketPct>5.07</marketPct>
+          <marketableLimitPct>1.74</marketableLimitPct>
+          <nonMarketableLimitPct>11.21</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-43.47</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-18.39</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-43.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PDQSMART $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>16.86</orderPct>
+          <marketPct>3.64</marketPct>
+          <marketableLimitPct>9.22</marketableLimitPct>
+          <nonMarketableLimitPct>4.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-26.16</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.5000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-83.93</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.5000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-10.47</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.5000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PSMT)</name>
+          <orderPct>11.13</orderPct>
+          <marketPct>2.74</marketPct>
+          <marketableLimitPct>5.76</marketableLimitPct>
+          <nonMarketableLimitPct>2.62</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-23.74</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-77.27</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-8.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PSMT $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>7.49</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>4.95</marketableLimitPct>
+          <nonMarketableLimitPct>2.54</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-1052.1000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-4687.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-1052.1000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-918.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-1052.1000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1052.1000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (CODAREB)</name>
+          <orderPct>2.49</orderPct>
+          <marketPct>0.05</marketPct>
+          <marketableLimitPct>0.81</marketableLimitPct>
+          <nonMarketableLimitPct>0.55</nonMarketableLimitPct>
+          <otherPct>1.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.49</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.86</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-2.9400</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from CODAREB $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (HEAT)</name>
+          <orderPct>0.25</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.13</marketableLimitPct>
+          <nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.3750</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.11</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.3750</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.3750</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.3750</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all HEAT order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying HEAT $0.08 per 100 shares to Cobra Trading paying HEAT $0.23 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PMID)</name>
+          <orderPct>0.20</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.07</marketableLimitPct>
+          <nonMarketableLimitPct>0.13</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1.73</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays PMID $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (REBATE)</name>
+          <orderPct>0.08</orderPct>
+          <marketPct>0.02</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.21</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-8.4600</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.4600</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.25</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-8.4600</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.4600</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all REBATE order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from REBATE $0.10 per 100 shares to Cobra Trading receiving from REBATE $0.067 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWAP)</name>
+          <orderPct>0.05</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.08</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWAP $0.06 per 100 shares to Cobra Trading paying TWAP $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (SMOK)</name>
+          <orderPct>0.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.35</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SMOK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SMOK $0.00 per 100 shares to Cobra Trading paying SMOK $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>20.62</ndoPct>
+      <ndoMarketPct>10.92</ndoMarketPct>
+      <ndoMarketableLimitPct>36.99</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>51.82</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.27</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>VIRTU AMERICAS, LLC. (FAN)</name>
+          <orderPct>44.45</orderPct>
+          <marketPct>0.34</marketPct>
+          <marketableLimitPct>12.70</marketableLimitPct>
+          <nonMarketableLimitPct>31.41</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>421.82</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6970.34</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>7449.76</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays FAN $0.05 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PSMT)</name>
+          <orderPct>21.06</orderPct>
+          <marketPct>4.16</marketPct>
+          <marketableLimitPct>10.37</marketableLimitPct>
+          <nonMarketableLimitPct>6.54</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2358.46</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7396.49</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1163.42</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PSMT $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>18.65</orderPct>
+          <marketPct>3.20</marketPct>
+          <marketableLimitPct>6.82</marketableLimitPct>
+          <nonMarketableLimitPct>8.63</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2397.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.5000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-5660.68</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.5000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-658.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.5000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.5000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (SMART)</name>
+          <orderPct>11.68</orderPct>
+          <marketPct>2.61</marketPct>
+          <marketableLimitPct>5.39</marketableLimitPct>
+          <nonMarketableLimitPct>3.50</nonMarketableLimitPct>
+          <otherPct>0.19</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>10641.51</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>38024.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>12437.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>878.6250</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays SMART $0.25 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PDQSMART)</name>
+          <orderPct>0.70</orderPct>
+          <marketPct>0.16</marketPct>
+          <marketableLimitPct>0.08</marketableLimitPct>
+          <nonMarketableLimitPct>0.46</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-40.27</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-34.78</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-74.64</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PDQSMART $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (HEAT)</name>
+          <orderPct>0.65</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.34</marketableLimitPct>
+          <nonMarketableLimitPct>0.31</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>3.59</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>12.3750</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>75.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>12.3750</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>62.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>12.3750</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>12.3750</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all HEAT order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying HEAT $0.08 per 100 shares to Cobra Trading paying HEAT $0.23 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (SPDRX)</name>
+          <orderPct>0.50</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.41</marketableLimitPct>
+          <nonMarketableLimitPct>0.09</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>20.0200</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>860.07</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>20.0200</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>206.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>20.0200</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>320.5402</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>20.0200</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SPDRX order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SPDRX $0.09 per 100 shares to Cobra Trading paying SPDRX $0.28 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PMID)</name>
+          <orderPct>0.50</orderPct>
+          <marketPct>0.26</marketPct>
+          <marketableLimitPct>0.14</marketableLimitPct>
+          <nonMarketableLimitPct>0.10</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>73.50</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>117.23</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>105.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays PMID $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (VWAP)</name>
+          <orderPct>0.44</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.18</marketableLimitPct>
+          <nonMarketableLimitPct>0.25</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-630.84</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-24.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-18232.50</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all VWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from VWAP $0.05 per 100 shares to Cobra Trading paying VWAP $0.01 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>0.39</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.24</marketableLimitPct>
+          <nonMarketableLimitPct>0.15</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-1052.1000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2655.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-1052.1000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-721.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-1052.1000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-1052.1000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (REBATE)</name>
+          <orderPct>0.31</orderPct>
+          <marketPct>0.13</marketPct>
+          <marketableLimitPct>0.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.13</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-105.78</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-8.4600</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-32.37</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.4600</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-32.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-8.4600</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.4600</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all REBATE order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from REBATE $0.10 per 100 shares to Cobra Trading receiving from REBATE $0.067 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (CODAREB)</name>
+          <orderPct>0.29</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.13</marketableLimitPct>
+          <nonMarketableLimitPct>0.08</nonMarketableLimitPct>
+          <otherPct>0.08</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-69.83</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-10.23</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-9.4024</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from CODAREB $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWAP)</name>
+          <orderPct>0.13</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-408.90</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1559.63</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWAP $0.06 per 100 shares to Cobra Trading paying TWAP $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP10)</name>
+          <orderPct>0.08</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-972.34</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-5.76</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-957.03</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP10 $0.06 per 100 shares to Cobra Trading paying TWP10 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP20)</name>
+          <orderPct>0.05</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-136.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-1.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-447.83</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP20 $0.06 per 100 shares to Cobra Trading paying TWP20 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP30)</name>
+          <orderPct>0.04</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.02</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-7.88</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-7.21</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-740.38</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP30 $0.06 per 100 shares to Cobra Trading paying TWP30 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CREDIT SUISSE (CSFBDESK)</name>
+          <orderPct>0.03</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all CSFBDESK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from CSFBDESK $0.071 per 100 shares to Cobra Trading paying CSFBDESK $0.076 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP5)</name>
+          <orderPct>0.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3.66</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-281.96</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP5 $0.06 per 100 shares to Cobra Trading paying TWP5 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (STRK)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>610.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>215.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all STRK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying STRK $0.00 per 100 shares to Cobra Trading paying STRK $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (DRK)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-41.45</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-80.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DRK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying DRK $0.04 per 100 shares to Cobra Trading paying DRK $0.10 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (SMOK)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>7.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.90</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SMOK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SMOK $0.00 per 100 shares to Cobra Trading paying SMOK $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>78.47</ndoPct>
+      <ndoMarketPct>13.26</ndoMarketPct>
+      <ndoMarketableLimitPct>21.44</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>64.99</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.31</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>87.43</orderPct>
+          <marketPct>12.78</marketPct>
+          <marketableLimitPct>15.23</marketableLimitPct>
+          <nonMarketableLimitPct>59.42</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-3775.99</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-10.5210</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-12998.80</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-10.5210</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-18564.41</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-10.5210</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-10.5210</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (MLCLSWP)</name>
+          <orderPct>7.80</orderPct>
+          <marketPct>0.08</marketPct>
+          <marketableLimitPct>4.84</marketableLimitPct>
+          <nonMarketableLimitPct>2.57</nonMarketableLimitPct>
+          <otherPct>0.31</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.35</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>598.35</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>74.20</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>3.5500</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all option order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays MLCLSWP $5.00 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>4.28</orderPct>
+          <marketPct>0.40</marketPct>
+          <marketableLimitPct>1.37</marketableLimitPct>
+          <nonMarketableLimitPct>2.50</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-14.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-115.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-186.30</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+  <rMonthly>
+    <year>2021</year>
+    <mon>12</mon>
+    <rSP500>
+      <ndoPct>21.02</ndoPct>
+      <ndoMarketPct>14.47</ndoMarketPct>
+      <ndoMarketableLimitPct>41.03</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>43.87</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.63</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>VIRTU AMERICAS, LLC. (FAN)</name>
+          <orderPct>38.58</orderPct>
+          <marketPct>0.06</marketPct>
+          <marketableLimitPct>12.44</marketableLimitPct>
+          <nonMarketableLimitPct>26.09</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>1.33</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>98.12</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>75.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays FAN $0.05 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (SMART)</name>
+          <orderPct>16.44</orderPct>
+          <marketPct>5.16</marketPct>
+          <marketableLimitPct>7.74</marketableLimitPct>
+          <nonMarketableLimitPct>3.49</nonMarketableLimitPct>
+          <otherPct>0.06</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>192.87</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>244.19</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>20.22</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>8.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays SMART $0.25 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>14.83</orderPct>
+          <marketPct>2.52</marketPct>
+          <marketableLimitPct>9.20</marketableLimitPct>
+          <nonMarketableLimitPct>3.11</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-68.77</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.6000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-113.06</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.6000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-11.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.6000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.6000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PSMT)</name>
+          <orderPct>12.25</orderPct>
+          <marketPct>4.72</marketPct>
+          <marketableLimitPct>6.17</marketableLimitPct>
+          <nonMarketableLimitPct>1.36</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-34.12</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-40.47</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3.91</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PSMT $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PDQSMART)</name>
+          <orderPct>9.58</orderPct>
+          <marketPct>1.93</marketPct>
+          <marketableLimitPct>1.23</marketableLimitPct>
+          <nonMarketableLimitPct>6.41</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-21.92</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-16.36</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-24.68</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PDQSMART $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>6.46</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>3.36</marketableLimitPct>
+          <nonMarketableLimitPct>3.10</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-228.4000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-772.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-228.4000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-268.78</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-228.4000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-228.4000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (CODAREB)</name>
+          <orderPct>1.25</orderPct>
+          <marketPct>0.07</marketPct>
+          <marketableLimitPct>0.42</marketableLimitPct>
+          <nonMarketableLimitPct>0.18</nonMarketableLimitPct>
+          <otherPct>0.57</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.77</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-3.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.49</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-1.7570</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from CODAREB $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (HEAT)</name>
+          <orderPct>0.41</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.34</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.1500</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>2.56</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.1500</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>9.1500</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.1500</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all HEAT order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying HEAT $0.08 per 100 shares to Cobra Trading paying HEAT $0.23 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PMID)</name>
+          <orderPct>0.07</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.04</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.45</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays PMID $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (SPDRX)</name>
+          <orderPct>0.06</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.6900</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>1.41</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.6900</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.6900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.6900</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SPDRX order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SPDRX $0.09 per 100 shares to Cobra Trading paying SPDRX $0.28 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (REBATE)</name>
+          <orderPct>0.03</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.03</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-8.1100</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.02</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.1100</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-8.1100</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.1100</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all REBATE order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from REBATE $0.10 per 100 shares to Cobra Trading receiving from REBATE $0.067 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWAP)</name>
+          <orderPct>0.03</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-0.04</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWAP $0.06 per 100 shares to Cobra Trading paying TWAP $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP30)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.04</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1.28</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP30 $0.06 per 100 shares to Cobra Trading paying TWP30 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rSP500>
+    <rOtherStocks>
+      <ndoPct>21.44</ndoPct>
+      <ndoMarketPct>8.22</ndoMarketPct>
+      <ndoMarketableLimitPct>34.86</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>56.72</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.20</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>VIRTU AMERICAS, LLC. (FAN)</name>
+          <orderPct>53.41</orderPct>
+          <marketPct>0.44</marketPct>
+          <marketableLimitPct>14.24</marketableLimitPct>
+          <nonMarketableLimitPct>38.73</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>830.96</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>6845.65</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6871.05</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays FAN $0.05 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>16.57</orderPct>
+          <marketPct>2.88</marketPct>
+          <marketableLimitPct>5.61</marketableLimitPct>
+          <nonMarketableLimitPct>8.08</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2515.44</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.6000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-4754.70</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.6000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-727.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.6000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.6000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PSMT)</name>
+          <orderPct>15.83</orderPct>
+          <marketPct>2.47</marketPct>
+          <marketableLimitPct>8.74</marketableLimitPct>
+          <nonMarketableLimitPct>4.61</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1891.77</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-5726.46</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-932.32</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PSMT $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (SMART)</name>
+          <orderPct>11.12</orderPct>
+          <marketPct>2.14</marketPct>
+          <marketableLimitPct>5.13</marketableLimitPct>
+          <nonMarketableLimitPct>3.70</nonMarketableLimitPct>
+          <otherPct>0.16</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>6851.64</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>25.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>36081.90</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>25.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>6668.48</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>25.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>449.0250</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>25.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays SMART $0.25 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PDQSMART)</name>
+          <orderPct>0.74</orderPct>
+          <marketPct>0.13</marketPct>
+          <marketableLimitPct>0.06</marketableLimitPct>
+          <nonMarketableLimitPct>0.55</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-30.05</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-15.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-42.18</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from PDQSMART $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (HEAT)</name>
+          <orderPct>0.39</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.23</marketableLimitPct>
+          <nonMarketableLimitPct>0.15</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>9.1500</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>47.29</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>9.1500</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>11.36</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>9.1500</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>9.1500</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all HEAT order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying HEAT $0.08 per 100 shares to Cobra Trading paying HEAT $0.23 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (REBATE)</name>
+          <orderPct>0.36</orderPct>
+          <marketPct>0.05</marketPct>
+          <marketableLimitPct>0.09</marketableLimitPct>
+          <nonMarketableLimitPct>0.23</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-76.95</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-8.1100</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-37.92</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-8.1100</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-32.80</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-8.1100</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-8.1100</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all REBATE order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from REBATE $0.10 per 100 shares to Cobra Trading receiving from REBATE $0.067 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>SPEEDROUTE, LLC (SPDRX)</name>
+          <orderPct>0.29</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.22</marketableLimitPct>
+          <nonMarketableLimitPct>0.07</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>22.6900</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>423.97</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>22.6900</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>74.10</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>22.6900</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>163.3025</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>22.6900</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SPDRX order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SPDRX $0.09 per 100 shares to Cobra Trading paying SPDRX $0.28 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (VWAP)</name>
+          <orderPct>0.28</orderPct>
+          <marketPct>0.04</marketPct>
+          <marketableLimitPct>0.12</marketableLimitPct>
+          <nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-2043.66</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-15.67</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-9674.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all VWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from VWAP $0.05 per 100 shares to Cobra Trading paying VWAP $0.01 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (PMID)</name>
+          <orderPct>0.27</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.10</marketableLimitPct>
+          <nonMarketableLimitPct>0.16</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.89</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>57.24</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>87.29</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays PMID $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>0.24</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.12</marketableLimitPct>
+          <nonMarketableLimitPct>0.12</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-228.4000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-706.10</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-228.4000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-200.33</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-228.4000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-228.4000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP30)</name>
+          <orderPct>0.13</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.08</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-125.80</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-9.32</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-1195.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP30 $0.06 per 100 shares to Cobra Trading paying TWP30 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CODA MARKETS, INC. (CODAREB)</name>
+          <orderPct>0.12</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.03</nonMarketableLimitPct>
+          <otherPct>0.04</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.39</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-7.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-26.50</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3.84</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-7.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>-3.2200</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-7.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from CODAREB $0.07 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWAP)</name>
+          <orderPct>0.10</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.05</marketableLimitPct>
+          <nonMarketableLimitPct>0.04</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-493.36</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-5.82</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-4520.46</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWAP $0.06 per 100 shares to Cobra Trading paying TWAP $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP10)</name>
+          <orderPct>0.06</orderPct>
+          <marketPct>0.04</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-979.28</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-0.98</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-182.88</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP10 $0.06 per 100 shares to Cobra Trading paying TWP10 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP20)</name>
+          <orderPct>0.03</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-257.99</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2.31</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-186.89</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP20 $0.06 per 100 shares to Cobra Trading paying TWP20 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CREDIT SUISSE (CSFBDESK)</name>
+          <orderPct>0.02</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.01</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>0.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>0.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>0.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>0.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all CSFBDESK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from CSFBDESK $0.071 per 100 shares to Cobra Trading paying CSFBDESK $0.076 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (DRK)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-8.48</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-39.98</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DRK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying DRK $0.04 per 100 shares to Cobra Trading paying DRK $0.10 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (SMOK)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.00</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.01</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>0.00</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>15.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.15</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>15.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>1.65</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>15.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>15.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all SMOK order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading paying SMOK $0.00 per 100 shares to Cobra Trading paying SMOK $0.15 per 100 shares.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>CLEARPOOL EXECUTION SERVICES, LLC (TWP5)</name>
+          <orderPct>0.01</orderPct>
+          <marketPct>0.01</marketPct>
+          <marketableLimitPct>0.00</marketableLimitPct>
+          <nonMarketableLimitPct>0.00</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-165.68</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-4.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>0.00</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>0.00</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-4.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-4.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all TWAP order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from TWP5 $0.06 per 100 shares to Cobra Trading paying TWP5 $0.04 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOtherStocks>
+    <rOptions>
+      <ndoPct>73.88</ndoPct>
+      <ndoMarketPct>13.66</ndoMarketPct>
+      <ndoMarketableLimitPct>24.50</ndoMarketableLimitPct>
+      <ndoNonmarketableLimitPct>61.70</ndoNonmarketableLimitPct>
+      <ndoOtherPct>0.14</ndoOtherPct>
+      <rVenues>
+        <rVenue>
+          <name>DASH FINANCIAL TECHNOLOGIES (DFIN/DASH)</name>
+          <orderPct>82.37</orderPct>
+          <marketPct>13.42</marketPct>
+          <marketableLimitPct>14.87</marketableLimitPct>
+          <nonMarketableLimitPct>54.08</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-1266.09</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-2.2840</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-2004.37</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-2.2840</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-3399.62</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-2.2840</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-2.2840</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all DFIN/DASH option order types and size, regardless of contracts traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives or pays a blended rate based on that month?s activity. This blended rate over the past year ranged from Cobra Trading receiving from DFIN/DASH $23.09 per 100 contracts to Cobra Trading paying DFIN/DASH $4.80 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>MERRILL LYNCH PIERCE FENNER &amp; SMITH, INC. (MLCLSWP)</name>
+          <orderPct>14.53</orderPct>
+          <marketPct>0.19</marketPct>
+          <marketableLimitPct>9.10</marketableLimitPct>
+          <nonMarketableLimitPct>5.10</nonMarketableLimitPct>
+          <otherPct>0.14</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>9.20</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>754.40</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>204.60</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.7500</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all option order types and size, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays MLCLSWP $5.00 per 100 contracts.</materialAspects>
+        </rVenue>
+        <rVenue>
+          <name>LAMPOST CAPITAL (LAMP)</name>
+          <orderPct>2.04</orderPct>
+          <marketPct>0.06</marketPct>
+          <marketableLimitPct>0.53</marketableLimitPct>
+          <nonMarketableLimitPct>1.45</nonMarketableLimitPct>
+          <otherPct>0.00</otherPct>
+          <netPmtPaidRecvMarketOrdersUsd>-0.60</netPmtPaidRecvMarketOrdersUsd>
+          <netPmtPaidRecvMarketOrdersCph>-5.0000</netPmtPaidRecvMarketOrdersCph>
+          <netPmtPaidRecvMarketableLimitOrdersUsd>-21.95</netPmtPaidRecvMarketableLimitOrdersUsd>
+          <netPmtPaidRecvMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvMarketableLimitOrdersCph>
+          <netPmtPaidRecvNonMarketableLimitOrdersUsd>-14.95</netPmtPaidRecvNonMarketableLimitOrdersUsd>
+          <netPmtPaidRecvNonMarketableLimitOrdersCph>-5.0000</netPmtPaidRecvNonMarketableLimitOrdersCph>
+          <netPmtPaidRecvOtherOrdersUsd>0.0000</netPmtPaidRecvOtherOrdersUsd>
+          <netPmtPaidRecvOtherOrdersCph>-5.0000</netPmtPaidRecvOtherOrdersCph>
+          <materialAspects>Cobra Trading may receive volume discounts not passed on to clients. Likewise, rebates passed on to clients by Cobra Trading may be less than the rebates Cobra Trading receives from the relevant market. For all order types and size for equities priced below $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading pays LAMP $0.05 per 100 shares. For all order types and size for equities priced above $1.00, regardless of shares traded in a given day, month, year, etc., or any other negotiated qualifier, Cobra Trading receives from LAMP $0.08 per 100 shares.</materialAspects>
+        </rVenue>
+      </rVenues>
+    </rOptions>
+  </rMonthly>
+</heldOrderRoutingPublicReport>
