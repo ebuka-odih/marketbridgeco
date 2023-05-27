@@ -544,7 +544,7 @@
     <div class="l-header__main-container">
         <div class="l-container">
             <div class="o-header-top-bar__wrapper l-header__top-bar-wrapper">
-                <a class="o-header-top-bar__anchor-link c-btn c-btn--primary c-btn--small l-header__anchor-link" href="demo-the-best-online-trading-platform/index.html" target="_self"> Request a Demo </a>
+                <a class="o-header-top-bar__anchor-link c-btn c-btn--primary c-btn--small l-header__anchor-link" href="{{ route('register') }}" target="_self"> Request a Demo </a>
                 <div class="o-header-top-bar__call-us l-header__call-us">
               <span class="o-header-top-bar__call-us-icon-wrapper l-header__call-us-icon-wrapper">
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 41.167 41.167" style="enable-background:new 0 0 41.167 41.167;" xml:space="preserve">
@@ -579,7 +579,7 @@
                 <div class="l-header__nav-wrapper">
                     <ul class="l-header__nav c-nav c-nav--primary">
                         <li class="c-nav__item c-nav__item--level-0 c-nav__item-1  menu-item menu-item-type-post_type menu-item-object-page menu-item-856" style="transition-delay: .1s">
-                            <a href="account-opening-process/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-856">
+                            <a href="{{ route('register') }}" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-856">
                                 <span class="c-nav__link-text">Open an Account</span>
                             </a>
                         </li>
@@ -678,7 +678,7 @@
                                     </a>
                                 </li>
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031" style="transition-delay: .s">
-                                    <a href="demo-the-best-online-trading-platform/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031">
+                                    <a href="{{ route('register') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031">
                                         <span class="c-nav__link-text">Request a Demo</span>
                                     </a>
                                 </li>
@@ -709,11 +709,11 @@
 <div data-module="navToggler" class="c-slide-out c-slide-out--light c-slide-out--top-bar-included js-slide-out c-slide-out--basic" id="slide-out">
     <div class="c-slide-out__container l-container">
         <div class="c-slide-out__buttons-wrapper">
-            <a class="c-slide-out__anchor-link c-btn c-btn--primary c-slide-out__anchor-link" href="demo-the-best-online-trading-platform/index.html" target="_self"> Request a Demo </a>
+            <a class="c-slide-out__anchor-link c-btn c-btn--primary c-slide-out__anchor-link" href="{{ route('register') }}" target="_self"> Request a Demo </a>
         </div>
         <ul class="c-slide-out__nav c-nav c-nav--mobile">
             <li class="c-nav__item c-nav__item--level-0 c-nav__item-1  menu-item menu-item-type-post_type menu-item-object-page menu-item-856" style="transition-delay: .1s">
-                <a href="account-opening-process/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-856">
+                <a href="{{ route('register') }}" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-856">
                     <span class="c-nav__link-text">Open an Account</span>
                 </a>
             </li>
@@ -827,7 +827,7 @@
                         </a>
                     </li>
                     <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031" style="transition-delay: .s">
-                        <a href="demo-the-best-online-trading-platform/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031">
+                        <a href="{{ route('register') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031">
                             <span class="c-nav__link-text">Request a Demo</span>
                         </a>
                     </li>

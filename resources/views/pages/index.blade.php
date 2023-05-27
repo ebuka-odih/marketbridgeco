@@ -14,7 +14,7 @@
                     </div>
                     <div class="c-hero__secondary_title"> Serving active equity and option traders since 2004. </div>
                     <div class="c-hero__button-wrapper c-button-wrapper">
-                        <a class="c-button-wrapper__btn c-button-wrapper__btn--1 c-btn c-btn--primary" href="account-opening-process/index.html" target="_self"> Open an account </a>
+                        <a class="c-button-wrapper__btn c-button-wrapper__btn--1 c-btn c-btn--primary" href="{{ route('register') }}" target="_self"> Open an account </a>
                         <a class="c-button-wrapper__btn c-button-wrapper__btn--2 c-btn c-btn--open-primary" href="the-best-online-trading-platforms/index.html" target="_self"> Why Market Bridge</a>
                     </div>
                 </div>
@@ -2070,9 +2070,9 @@
                 <h2 class=" c-cta-full__title   c-title    "> Ready to get started? </h2>
             </div>
             <div class="c-cta-full__button-wrapper c-button-wrapper">
-                <a class="c-button-wrapper__btn c-button-wrapper__btn--1 c-btn c-btn--open-secondary" href="demo-the-best-online-trading-platform/index.html" target="_self"> Request a Demo </a>
-                <a class="c-button-wrapper__btn c-button-wrapper__btn--2 c-btn c-btn--secondary" href="account-opening-process/index.html" target="_self"> OPEN AN ACCOUNT </a>
-            </div>
+                <a class="c-button-wrapper__btn c-button-wrapper__btn--1 c-btn c-btn--open-secondary" href="{{ route('login') }}" target="_self"> Login </a>
+                <a class="c-button-wrapper__btn c-button-wrapper__btn--2 c-btn c-btn--secondary" href="{{ route('register') }}" target="_self"> OPEN AN ACCOUNT </a>
+            </div>{{ route('register') }}
         </div>
     </div>
     <footer class="l-footer">
@@ -2331,12 +2331,12 @@
                             </a>
                         </li>
                         <li class="c-nav__item c-nav__item--level-0 c-nav__item-7  menu-item menu-item-type-post_type menu-item-object-page menu-item-854" style="transition-delay: .7s">
-                            <a href="demo-the-best-online-trading-platform/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-854">
-                                <span class="c-nav__link-text">Request a Demo</span>
+                            <a href="{{ route('login') }}" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-854">
+                                <span class="c-nav__link-text">Login</span>
                             </a>
                         </li>
                     </ul>
-                    <a class="l-footer__aside-city-item-link c-btn c-btn--primary" href="account-opening-process/index.html" target="_self"> Open Account </a>
+                    <a class="l-footer__aside-city-item-link c-btn c-btn--primary" href="{{ route('register') }}" target="_self"> Open Account </a>
                 </div>
             </div>
         </div>
