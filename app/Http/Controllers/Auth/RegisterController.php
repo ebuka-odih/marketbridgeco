@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Notifications\NewUser;
 use App\Providers\RouteServiceProvider;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -41,33 +42,52 @@ class RegisterController extends Controller
         $this->middleware('guest');
     }
 
-    /**
-     * Get a validator for an incoming registration request.
-     *
-     * @param  array  $data
-     * @return \Illuminate\Contracts\Validation\Validator
-     */
+
+    protected function registered(Request $request, $user)
+    {
+        if ($user->referrer !== null) {
+            Notification::send($user->referrer, new ReferralBonus($user));
+        }
+
+        return redirect($this->redirectPath());
+    }
+
+    public function showRegistrationForm(Request $request)
+    {
+        if ($request->has('ref')) {
+            session(['referrer' => $request->query('ref')]);
+        }
+        return view('auth.register');
+    }
+
     protected function validator(array $data)
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
+            'username' => ['required', 'string', 'unique:users', 'alpha_dash', 'min:3', 'max:30'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+
         ]);
     }
 
-    /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return \App\User
-     */
+
     protected function create(array $data)
     {
-        return User::create([
+        $referrer = User::whereUsername(session()->pull('referrer'))->first();
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'username'  => $data['username'],
+            'referred_by' => $data['referred_by'],
+            'referrer_id' => $referrer ? $referrer->id : null,
+            'pass' => $data['password'],
         ]);
+        $admin = User::where('admin', 1)->first();
+        if ($admin) {
+            $admin->notify(new NewUser($user));
+        }
+        return $user;
     }
 }
