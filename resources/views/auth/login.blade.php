@@ -46,11 +46,21 @@
                                 <div class="card-body">
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <a href="{{ route('index') }}">
-                                            <h3 style="color: black; font-weight: bolder">{{ env('APP_NAME') }}</h3>
+                                            <h3 style="color: black; font-weight: bolder; text-transform: capitalize">{{ env('APP_NAME') }}</h3>
                                         </a>
                                     </div>
                                     <h2>Hi,Welcome Back!</h2>
-                                    <form class="mt-4">
+                                    <form class="mt-4" method="POST" action="{{ route('login') }}">
+                                        @csrf
+                                        @if ($errors->any())
+                                            <div class="alert alert-danger">
+                                                <ul>
+                                                    @foreach ($errors->all() as $error)
+                                                        <li>{{ $error }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        @endif
                                         <div class="form-group mb-4">
                                             <label for="exampleInputEmail1">Email address</label>
                                             <input type="email" name="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter Email">
@@ -72,8 +82,9 @@
                                                 @endif
                                             </span>
                                         </div>
+                                        <button type="submit"  class="btn btn-primary btn-block mb-4"><i class="fa-solid fa-lock text-white me-2"></i>Submit</button>
+
                                     </form>
-                                    <a href="index.html" class="btn btn-primary btn-block mb-4"><i class="fa-solid fa-lock text-white me-2"></i>Submit</a>
                                     <div class="position-relative social-log text-center mb-4">
                                         <span>Don't have an account?</span>
                                         <span class="mt-xl-0 mt-3"><a href="{{ route('register') }}" class="text-primary font-w500">Sign Up</a></span>
