@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Deposit;
 use App\Funding;
+use App\Mail\DepositAlert;
+use App\PaymentMethod;
 use App\Rules\MatchOldPassword;
 use App\Subscribe;
 use App\Trade;
@@ -12,6 +14,7 @@ use App\Withdraw;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
@@ -24,7 +27,29 @@ class UserController extends Controller
 
         $bonus = Funding::whereUserId(\auth()->id())->select('type', 'Bonus')->where('status', 1)->sum('amount');
         $bonus2 = Funding::whereUserId(\auth()->id())->select('type', 'Referral-Bonus')->where('status', 1)->sum('amount');
-        return view('dashboard.index', compact('trade', 'deposits', 'withdrawal', 'loss', 'bonus', 'bonus2'));
+        $wallets = PaymentMethod::all();
+        return view('dashboard.index', compact('trade', 'deposits', 'withdrawal', 'loss', 'bonus', 'bonus2', 'wallets'));
+    }
+
+
+    public function processDeposit(Request $request)
+    {
+        $request->validate([
+            'amount' => 'required',
+            'payment_method_id' => 'required',
+        ]);
+
+        $deposit = new Deposit();
+        if ($request->amount > 50){
+            $deposit->user_id = Auth::id();
+            $deposit->amount = $request->amount;
+            $deposit->payment_method_id = $request->payment_method_id;
+            $deposit->save();
+            Mail::to($deposit->user->email)->send(new DepositAlert($deposit));
+            return redirect()->route('user.payment', $deposit->id);
+        }
+        return redirect()->back()->with('declined', "You can only deposit 50 USD and above");
+
     }
 
     public function profile()
