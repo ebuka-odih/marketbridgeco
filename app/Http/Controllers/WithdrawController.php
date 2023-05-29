@@ -17,7 +17,7 @@ class WithdrawController extends Controller
     public function transactions()
     {
         $count = Withdraw::whereUserId(\auth()->id())->where('status', 0)->count();
-        $withdraw = Withdraw::whereUserId(\auth()->id())->latest()->paginate(6);
+        $withdraw = Withdraw::whereUserId(\auth()->id())->latest()->paginate(10);
         return view('dashboard.withdraw.history', compact('withdraw', 'count'));
     }
     public function withdraw()

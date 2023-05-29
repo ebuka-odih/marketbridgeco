@@ -33,25 +33,12 @@ class UserController extends Controller
     }
 
 
-    public function processDeposit(Request $request)
-    {
-        $request->validate([
-            'amount' => 'required',
-            'payment_method_id' => 'required',
-        ]);
+   public function fundingHistory()
+   {
+       $funding = Funding::whereUserId(\auth()->id())->latest()->paginate(10);
+       return view('dashboard.user.fundings', compact('funding'));
 
-        $deposit = new Deposit();
-        if ($request->amount > 50){
-            $deposit->user_id = Auth::id();
-            $deposit->amount = $request->amount;
-            $deposit->payment_method_id = $request->payment_method_id;
-            $deposit->save();
-            Mail::to($deposit->user->email)->send(new DepositAlert($deposit));
-            return redirect()->route('user.payment', $deposit->id);
-        }
-        return redirect()->back()->with('declined', "You can only deposit 50 USD and above");
-
-    }
+   }
 
     public function profile()
     {

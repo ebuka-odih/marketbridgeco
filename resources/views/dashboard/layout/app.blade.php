@@ -271,7 +271,7 @@
                     <ul aria-expanded="false">
                         <li><a href="{{ route('user.deposit.transactions') }}">Deposits</a></li>
                         <li><a href="{{ route('user.withdraw.transactions') }}">Withdrawal</a></li>
-                        <li><a href="user.html">Funding</a></li>
+                        <li><a href="{{ route('user.fundingHistory') }}">Funding</a></li>
                         <li><a href="celandar.html">Trade History</a></li>
                     </ul>
                 </li>
