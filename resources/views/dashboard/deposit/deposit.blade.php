@@ -56,7 +56,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-6 m-b30">
-                                        <button type="submit" class="btn btn-primary">Proceed</button>
+                                        <button type="submit" class="btn btn-danger">Proceed</button>
                                     </div>
 
 

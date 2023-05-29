@@ -17,7 +17,7 @@
                 </div>
                 <div class="row">
 
-                    <div class="col-xl-6 col-lg-8 offset-lg-2">
+                    <div class="col-xl-6 col-lg-8 offset-lg-2 col-md-12">
                         <div class="card profile-card card-bx m-b30">
 
                             <form class="form" method="POST" action="{{ route('user.processWithdraw') }}">

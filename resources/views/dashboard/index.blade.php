@@ -28,88 +28,99 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Proceed</button>
+                        <button type="button" class="btn btn-dark light" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Proceed</button>
                     </div>
                 </form>
 
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModal2" tabindex="-1"  aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header ">
-                    <h5 class="modal-title">Make Payment</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <label class="form-label">Payment method</label>
-                    <div>
-                        <select class=" w-100 mb-3" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">Bank Card</option>
-                            <option value="2">Online</option>
-                            <option value="3">Cash On Time</option>
-                        </select>
-                    </div>
-                    <label class="form-label">Amount</label>
-                    <input type="email" class="form-control mb-3" id="exampleInputEmail4"  placeholder="Rupee">
-                    <label class="form-label">Card Holder Name</label>
-                    <input type="email" class="form-control mb-3" id="exampleInputEmail5"  placeholder="Amount">
-                    <label class="form-label">Card Name</label>
-                    <input type="email" class="form-control mb-3" id="exampleInputEmail6"  placeholder="Amount">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div class="modal fade" id="exampleModal3" tabindex="-1"  aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header ">
-                    <h5 class="modal-title">Enter Debit or Credit card Details</h5>
+                    <h5 class="modal-title">Withdrawal</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <form class="form" method="POST" action="{{ route('user.processWithdraw') }}">
+                    @csrf
                 <div class="modal-body">
-                    <label class="form-label">Card Number</label>
-                    <input type="number" class="form-control mb-3" id="exampleInputEmail7"  placeholder="card no.">
-                    <label class="form-label">Expiry/Validity</label>
-                    <input type="number" class="form-control mb-3" id="exampleInputEmail8"  placeholder="Year/Month">
-                    <label class="form-label">CVV</label>
-                    <input type="number" class="form-control mb-3" id="exampleInputEmail9"  placeholder="123">
+                        <div class="card-body">
+                            <div class="container">
+                                @if ($errors->any())
+                                    <div class="alert alert-danger">
+                                        <ul>
+                                            @foreach ($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
+                                @if(session()->has('declined'))
+                                    <div class="alert alert-danger">
+                                        {{ session()->get('declined') }}
+                                    </div>
+                                @endif
+                                @if(session()->has('nop'))
+                                    <div class="alert alert-danger">
+                                        {{ session()->get('nop') }}
+                                    </div>
+                                @endif
+                                @if(session()->has('low_balance'))
+                                    <div class="alert alert-danger">
+                                        {{ session()->get('low_balance') }}
+                                    </div>
+                                @endif
+                                @if(session()->has('success_message'))
+                                    <div class="alert alert-success">
+                                        {{ session()->get('success_message') }}
+                                    </div>
+                                @endif
+                            </div>
+                            <div class="mb-3 mb-0">
+                                <h5>Select Account Wallet</h5>
+                                <div class="form-check custom-checkbox mb-2">
+                                    <input type="radio" class="form-check-input" id="customRadioBox7" name="acct_wallet" value="main_bal">
+                                    <label class="form-check-label" for="customRadioBox7">Main Balance <span>( $@convert($user->balance) )</span></label>
+                                </div>
+                                <div class="form-check custom-checkbox mb-2">
+                                    <input type="radio" class="form-check-input" id="customRadioBox8" name="acct_wallet" value="profit_bal">
+                                    <label class="form-check-label" for="customRadioBox8">Profit Balance <span>( $@convert($user->profit) )</span></label>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-sm-12 m-b30">
+                                    <label class="form-label">Amount</label>
+                                    <input type="number" name="amount" class="form-control mb-3" id="exampleInputEmail3" required placeholder="Amount">
+                                </div>
+                                <div class="col-sm-12 m-b30">
+                                    <label class="form-label">Payout Wallet</label>
+                                    <select name="wallet" id="" class="form-control">
+                                        <option value="Bitcoin">Bitcoin</option>
+                                        <option value="Ethereum">Ethereum</option>
+                                        <option value="USDT">USDT</option>
+                                        <option value="Binance Coin">Binance Coin</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-12 m-b30">
+                                    <label class="form-label">Wallet Address</label>
+                                    <input type="text" name="wallet_address" class="form-control mb-3" id="exampleInputEmail3" required placeholder="Wallet Address">
+                                </div>
+
+
+                            </div>
+                        </div>
+
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-dark light" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Proceed</button>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="exampleModal4" tabindex="-1"  aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header ">
-                    <h5 class="modal-title">Send invoice</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <label class="form-label">Send email to</label>
-                    <input type="email" class="form-control mb-3" id="exampleInputEmail10"  placeholder="Art Vandelay<art@vandelay.com>">
-                    <label class="form-label">Subject</label>
-                    <input type="number" class="form-control mb-3" id="exampleInputEmail11"  placeholder="invoice Vi-001 from America">
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Body</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+                </form>
             </div>
         </div>
     </div>
@@ -128,7 +139,7 @@
                             <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                 Make a Deposit
                             </button>
-                            <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                                 Withdraw
                             </button>
                         </div>

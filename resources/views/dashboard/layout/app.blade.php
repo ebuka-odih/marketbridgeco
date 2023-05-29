@@ -83,6 +83,13 @@
             color: #fd5353;
             background: var(--rgba-primary-1);
         }
+        .table-responsive thead {
+            background-color: #fd5353;
+        }
+        .pagination-primary .page-item.active .page-link {
+            background: #fd5353;
+            border-color: #fd5353;
+        }
     </style>
 <body class="dark-mode">
 
@@ -259,15 +266,13 @@
                                 <path d="M7.71829 15.8585C6.02246 15.8585 4.64746 14.4835 4.64746 12.7876C4.64746 11.0918 6.02246 9.7168 7.71829 9.7168C9.41413 9.7168 10.7891 11.0918 10.7891 12.7876C10.7891 14.4835 9.41413 15.8585 7.71829 15.8585ZM7.71829 11.0918C6.78329 11.0918 6.02246 11.8526 6.02246 12.7876C6.02246 13.7226 6.78329 14.4835 7.71829 14.4835C8.65329 14.4835 9.41413 13.7226 9.41413 12.7876C9.41413 11.8526 8.66246 11.0918 7.71829 11.0918Z" fill="#9C99FF"/>
                             </svg>
                         </div>
-                        <span class="nav-text">File Manager</span>
+                        <span class="nav-text">Transactions</span>
                     </a>
                     <ul aria-expanded="false">
-                        <li><a href="file-manager.html">File Manager</a></li>
-                        <li><a href="user.html">User</a></li>
-                        <li><a href="celandar.html">Calendar</a></li>
-                        <li><a href="to-do-list.html">To Do List</a></li>
-                        <li><a href="chat.html">Chat</a></li>
-                        <li><a href="activity.html">Activity</a></li>
+                        <li><a href="{{ route('user.deposit.transactions') }}">Deposits</a></li>
+                        <li><a href="{{ route('user.withdraw.transactions') }}">Withdrawal</a></li>
+                        <li><a href="user.html">Funding</a></li>
+                        <li><a href="celandar.html">Trade History</a></li>
                     </ul>
                 </li>
                 <li>

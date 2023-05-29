@@ -28,7 +28,8 @@ class UserController extends Controller
         $bonus = Funding::whereUserId(\auth()->id())->select('type', 'Bonus')->where('status', 1)->sum('amount');
         $bonus2 = Funding::whereUserId(\auth()->id())->select('type', 'Referral-Bonus')->where('status', 1)->sum('amount');
         $wallets = PaymentMethod::all();
-        return view('dashboard.index', compact('trade', 'deposits', 'withdrawal', 'loss', 'bonus', 'bonus2', 'wallets'));
+        $user = Auth::user();
+        return view('dashboard.index', compact('trade', 'deposits', 'withdrawal', 'loss', 'bonus', 'bonus2', 'wallets', 'user'));
     }
 
 
