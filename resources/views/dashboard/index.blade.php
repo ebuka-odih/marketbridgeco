@@ -10,7 +10,8 @@
                     <h5 class="modal-title">Make Deposit</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="{{ route('user.processDeposit') }}">
+                <form action="{{ route('user.processDeposit') }}" method="POST">
+                    @csrf
                     <div class="modal-body">
                         <div class="form-group mb-3">
                             <label class="form-label">Payment Method</label>
@@ -23,7 +24,7 @@
                         </div>
                         <div class="form-group">
                             <label class="form-label">Amount</label>
-                            <input type="number" name="amount" class="form-control mb-3" id="exampleInputEmail3"  placeholder="Amount">
+                            <input type="number" name="amount" class="form-control mb-3" id="exampleInputEmail3" required placeholder="Amount">
                         </div>
                     </div>
                     <div class="modal-footer">
