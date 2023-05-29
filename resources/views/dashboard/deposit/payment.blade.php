@@ -28,11 +28,8 @@
                                     <hr class="mb-3">
                                     <br>
                                     @if(session()->has('success'))
-                                        <div class="alert alert-success alert-dismissible fade show">
+                                        <div class="alert alert-success">
                                             {{ session()->get('success') }}
-                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
                                         </div>
                                     @endif
                                     @if ($errors->any())
@@ -102,7 +99,7 @@
                                                     <br>
                                                     <div class="col-md-12 col-12 mt-3">
                                                         <div class="form-group">
-                                                            <button type="button" class="btn btn-rounded btn-primary" data-toggle="modal" data-target="#modal-center">
+                                                            <button type="button" class="btn btn-rounded btn-primary" data-bs-toggle="modal"  data-bs-target="#exampleModal2">
                                                                 Confirm Deposit
                                                             </button>
                                                         </div>
@@ -120,6 +117,35 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1"  aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h5 class="modal-title">Payment Reference</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="{{ route('user.processPayment') }}" method="POST" enctype="multipart/form-data">
+                    <div class="modal-body">
+                        @csrf
+                        @method('PATCH')
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="" class="">Select Payment Screenshot</label>
+                                <input type="hidden" name="deposit_id" value="{{ $deposit->id }}">
+                                <input name="reference" type="file" class="form-control-file">                            </div>
+                            =</div>
+
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button" class="btn btn-rounded btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-rounded btn-primary float-right">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
