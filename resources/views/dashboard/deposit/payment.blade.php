@@ -10,7 +10,8 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item ps-0"><a href="{{ route('user.dashboard') }}">Dashboard</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Deposit</li>
+                                <li class="breadcrumb-item"><a href="{{ route('user.dashboard') }}">Deposit</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Payment</li>
                             </ol>
                         </nav>
                     </div>
