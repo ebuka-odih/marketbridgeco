@@ -23,7 +23,8 @@ class WithdrawController extends Controller
     public function withdraw()
     {
 //        $w_method = WithdrawMethod::whereUserId(auth()->id())->get();
-        return view('dashboard.withdraw.withdraw');
+        $user = Auth::user();
+        return view('dashboard.withdraw.withdraw', compact('user'));
 
     }
 
@@ -34,21 +35,24 @@ class WithdrawController extends Controller
             'wallet_address' => 'required',
         ]);
         $withdraw = new Withdraw();
-        if ($request->amount < \auth()->user()->balance){
-            if ($request->amount >= 100){
-                $withdraw->amount = $request->amount;
-                $withdraw->user_id = Auth::id();
-                $withdraw->wallet_address = $request->wallet_address;
-                $user = User::findOrFail($withdraw->user_id);
-                $data = ['withdraw' => $withdraw, 'user' => $user];
-                $withdraw->save();
-                Mail::to($user->email)->send( new RequestWithdraw($data));
-                Mail::to('admin@whalescorp.io')->send( new AdminWithdrawAlert($data));
-                return redirect()->route('user.success', $withdraw->id)->with('success_message', 'Your withdrawal request has been sent successfully, awaiting approval');
+        if ($request->acct_wallet == 'main_bal') {
+            if ($request->amount < \auth()->user()->balance){
+                if ($request->amount >= 100){
+                    $withdraw->amount = $request->amount;
+                    $withdraw->user_id = Auth::id();
+                    $withdraw->wallet_address = $request->wallet_address;
+                    $user = User::findOrFail($withdraw->user_id);
+                    $data = ['withdraw' => $withdraw, 'user' => $user];
+                    $withdraw->save();
+                    Mail::to($user->email)->send( new RequestWithdraw($data));
+                    Mail::to('admin@whalescorp.io')->send( new AdminWithdrawAlert($data));
+                    return redirect()->route('user.success', $withdraw->id)->with('success_message', 'Your withdrawal request has been sent successfully, awaiting approval');
+                }
+                return redirect()->back()->with('nop', "You can't withdraw less than 200 USD");
             }
-            return redirect()->back()->with('nop', "You can't withdraw less than 200 USD");
+            return redirect()->back()->with('low_balance', "Insufficient Balance");
         }
-        return redirect()->back()->with('low_balance', "You can't withdraw less than 200 USD");
+
 
     }
 

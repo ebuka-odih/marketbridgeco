@@ -42,6 +42,11 @@
                                     </div>
                                 @endif
                                 <div class="row">
+
+                                    <div class="col-sm-12 m-b30">
+                                        <label class="form-label">Amount</label>
+                                        <input type="number" name="amount" class="form-control mb-3" id="exampleInputEmail3" required placeholder="Amount">
+                                    </div>
                                     <div class="col-sm-12 m-b30">
                                         <label class="form-label">Payment Method</label>
                                         <select name="payment_method_id" id="" class="form-control">
@@ -49,10 +54,6 @@
                                                 <option value="{{ $item->id }}">{{ $item->name }}</option>
                                             @endforeach
                                         </select>
-                                    </div>
-                                    <div class="col-sm-12 m-b30">
-                                        <label class="form-label">Amount</label>
-                                        <input type="number" name="amount" class="form-control mb-3" id="exampleInputEmail3" required placeholder="Amount">
                                     </div>
                                     <div class="col-sm-6 m-b30">
                                         <button type="submit" class="btn btn-primary">Proceed</button>

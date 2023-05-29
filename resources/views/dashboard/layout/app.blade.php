@@ -31,7 +31,59 @@
     <link href="{{ asset('client/css/style.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />--}}
-
+    <style>
+        [data-nav-headerbg="color_2"][data-theme-version="dark"], [data-nav-headerbg="color_2"] {
+            --nav-headbg: #d02a2b;
+        }
+        .deznav {
+            width: var(--width);
+            padding-bottom: 0;
+            height: calc(100% - 4.5rem);
+            position: absolute;
+            top: 5rem;
+            padding-top: 0;
+            z-index: 6;
+            background-color: #d02a2b;
+            border-top: none;
+            transition: all .2s ease;
+            box-shadow: 0rem 0.9375rem 1.875rem 0rem rgba(0, 0, 0, 0.02);
+        }
+        .btn-primary {
+            background-color: #fd5353;
+            border: 0px;
+        }
+        .btn:hover {
+            background-color: #0b0a0a;
+            color: white;
+        }
+        .page-titles .breadcrumb li.active {
+            color: #d02a2b;
+            font-size: 1rem;
+        }
+        .page-titles .breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+            content: "\f105";
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 600;
+            position: absolute;
+            font-size: 14px;
+            color: #d02a2b;
+            margin-left: -20px;
+        }
+        .form-check-input:checked[type="radio"]:after {
+            content: "";
+            height: 0.688rem;
+            width: 0.688rem;
+            background-color: #fd5353;
+            position: absolute;
+            top: 0.188rem;
+            left: 0.188rem;
+            border-radius: 50%;
+        }
+        .dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+            color: #fd5353;
+            background: var(--rgba-primary-1);
+        }
+    </style>
 <body class="dark-mode">
 
 <!--*******************
@@ -186,6 +238,13 @@
                             </svg>
                         </div>
                         <span class="nav-text"> Deposit</span>
+                    </a>
+                </li>
+                <li><a class="" href="{{ route('user.withdraw') }}" >
+                        <div class="menu-icon">
+                            <?xml version="1.0" ?><svg baseProfile="tiny" height="24px" id="Layer_1" version="1.2" viewBox="0 0 24 24" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M12,21c-1.654,0-3-1.346-3-3v-4.764c-1.143,1.024-3.025,0.979-4.121-0.115c-1.17-1.169-1.17-3.073,0-4.242L12,1.758   l7.121,7.121c1.17,1.169,1.17,3.073,0,4.242c-1.094,1.095-2.979,1.14-4.121,0.115V18C15,19.654,13.654,21,12,21z M11,8.414V18   c0,0.551,0.448,1,1,1s1-0.449,1-1V8.414l3.293,3.293c0.379,0.378,1.035,0.378,1.414,0c0.391-0.391,0.391-1.023,0-1.414L12,4.586   l-5.707,5.707c-0.391,0.391-0.391,1.023,0,1.414c0.379,0.378,1.035,0.378,1.414,0L11,8.414z"/></g></svg>
+                        </div>
+                        <span class="nav-text"> Withdraw</span>
                     </a>
                 </li>
                 <li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
