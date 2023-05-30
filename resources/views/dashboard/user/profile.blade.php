@@ -1,6 +1,14 @@
 @extends('dashboard.layout.app')
 @section('content')
-
+    <style>
+        .photo-content .cover-photo {
+            background: url(../images/profile/cover.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 15.625rem;
+            width: 100%;
+        }
+    </style>
 <div class="content-body" style="min-height: 1056px;">
     <div class="container-fluid">
         <!-- row -->
@@ -13,32 +21,18 @@
                         </div>
                         <div class="profile-info">
                             <div class="profile-photo">
-                                <img src="images/profile/profile.png" class="img-fluid rounded-circle" alt="">
+                                <img src="{{ asset('img/avatar.png') }}" class="img-fluid rounded-circle" alt="">
                             </div>
                             <div class="profile-details">
                                 <div class="profile-name px-3 pt-2">
-                                    <h4 class="text-primary mb-0">Mitchell C. Shay</h4>
-                                    <p>UX / UI Designer</p>
+                                    <h4 class="text-primary mb-0">{{ $user->name }}</h4>
+                                    <p class="badge bg-danger text-white">Investor</p>
                                 </div>
                                 <div class="profile-email px-2 pt-2">
-                                    <h4 class="text-muted mb-0">info@example.com</h4>
+                                    <h4 class="text-muted mb-0">{{ $user->email }}</h4>
                                     <p>Email</p>
                                 </div>
-                                <div class="dropdown ms-auto">
-                                    <div class="btn sharp btn-primary tp-btn" data-bs-toggle="dropdown">
-                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8.47908 4.58333C8.47908 3.19 9.60659 2.0625 10.9999 2.0625C12.3933 2.0625 13.5208 3.19 13.5208 4.58333C13.5208 5.97667 12.3933 7.10417 10.9999 7.10417C9.60658 7.10417 8.47908 5.97667 8.47908 4.58333ZM12.1458 4.58333C12.1458 3.95083 11.6324 3.4375 10.9999 3.4375C10.3674 3.4375 9.85408 3.95083 9.85408 4.58333C9.85408 5.21583 10.3674 5.72917 10.9999 5.72917C11.6324 5.72917 12.1458 5.21583 12.1458 4.58333Z" fill="#252289"></path>
-                                            <path d="M8.47908 17.4163C8.47908 16.023 9.60659 14.8955 10.9999 14.8955C12.3933 14.8955 13.5208 16.023 13.5208 17.4163C13.5208 18.8097 12.3933 19.9372 10.9999 19.9372C9.60658 19.9372 8.47908 18.8097 8.47908 17.4163ZM12.1458 17.4163C12.1458 16.7838 11.6324 16.2705 10.9999 16.2705C10.3674 16.2705 9.85408 16.7838 9.85408 17.4163C9.85408 18.0488 10.3674 18.5622 10.9999 18.5622C11.6324 18.5622 12.1458 18.0488 12.1458 17.4163Z" fill="#252289"></path>
-                                            <path d="M8.47908 11.0003C8.47908 9.60699 9.60659 8.47949 10.9999 8.47949C12.3933 8.47949 13.5208 9.60699 13.5208 11.0003C13.5208 12.3937 12.3933 13.5212 10.9999 13.5212C9.60658 13.5212 8.47908 12.3937 8.47908 11.0003ZM12.1458 11.0003C12.1458 10.3678 11.6324 9.85449 10.9999 9.85449C10.3674 9.85449 9.85408 10.3678 9.85408 11.0003C9.85408 11.6328 10.3674 12.1462 10.9999 12.1462C11.6324 12.1462 12.1458 11.6328 12.1458 11.0003Z" fill="#252289"></path>
-                                        </svg>
-                                    </div>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li class="dropdown-item"><a href="javascript:void(0)"><i class="fa fa-user-circle text-primary me-2"></i> View profile</a></li>
-                                        <li class="dropdown-item"><a href="javascript:void(0)"><i class="fa fa-users text-primary me-2"></i> Add to btn-close friends</a></li>
-                                        <li class="dropdown-item"><a href="javascript:void(0)"><i class="fa fa-plus text-primary me-2"></i> Add to group</a></li>
-                                        <li class="dropdown-item"><a href="javascript:void(0)"><i class="fa fa-ban text-primary me-2"></i> Block</a></li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -70,120 +64,12 @@
                                         </div>
                                     </div>
                                     <!-- Modal -->
-                                    <div class="modal fade" id="sendMessageModal">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title">Send Message</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <form class="comment-form">
-                                                        <div class="row">
-                                                            <div class="col-lg-6">
-                                                                <div class="mb-3">
-                                                                    <label class="text-black font-w600 form-label">Name <span class="required">*</span></label>
-                                                                    <input type="text" class="form-control" value="Author" name="Author" placeholder="Author">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div class="mb-3">
-                                                                    <label class="text-black font-w600 form-label">Email <span class="required">*</span></label>
-                                                                    <input type="text" class="form-control" value="Email" placeholder="Email" name="Email">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-12">
-                                                                <div class="mb-3">
-                                                                    <label class="text-black font-w600 form-label">Comment</label>
-                                                                    <textarea rows="8" class="form-control" name="comment" placeholder="Comment"></textarea>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-12">
-                                                                <div class="mb-3 mb-0">
-                                                                    <input type="submit" value="Post Comment" class="submit btn btn-primary" name="submit">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="profile-blog">
-                                    <h5 class="text-primary d-inline">Today Highlights</h5>
-                                    <img src="images/profile/1.jpg" alt="" class="img-fluid mt-4 mb-4 w-100 rounded">
-                                    <h4><a href="post-details.html" class="text-black">Darwin Creative Agency Theme</a></h4>
-                                    <p class="mb-0">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="profile-interest">
-                                    <h5 class="text-primary d-inline">Interest</h5>
-                                    <div class="row mt-4 sp4" id="lightgallery">
-                                        <a href="images/profile/2.jpg" data-exthumbimage="images/profile/2.jpg" data-src="images/profile/2.jpg" class="mb-1 col-lg-4 col-xl-4 col-sm-4 col-6">
-                                            <img src="images/profile/2.jpg" alt="" class="img-fluid rounded">
-                                        </a>
-                                        <a href="images/profile/3.jpg" data-exthumbimage="images/profile/3.jpg" data-src="images/profile/3.jpg" class="mb-1 col-lg-4 col-xl-4 col-sm-4 col-6">
-                                            <img src="images/profile/3.jpg" alt="" class="img-fluid rounded">
-                                        </a>
-                                        <a href="images/profile/4.jpg" data-exthumbimage="images/profile/4.jpg" data-src="images/profile/4.jpg" class="mb-1 col-lg-4 col-xl-4 col-sm-4 col-6">
-                                            <img src="images/profile/4.jpg" alt="" class="img-fluid rounded">
-                                        </a>
-                                        <a href="images/profile/3.jpg" data-exthumbimage="images/profile/3.jpg" data-src="images/profile/3.jpg" class="mb-1 col-lg-4 col-xl-4 col-sm-4 col-6">
-                                            <img src="images/profile/3.jpg" alt="" class="img-fluid rounded">
-                                        </a>
-                                        <a href="images/profile/4.jpg" data-exthumbimage="images/profile/4.jpg" data-src="images/profile/4.jpg" class="mb-1 col-lg-4 col-xl-4 col-sm-4 col-6">
-                                            <img src="images/profile/4.jpg" alt="" class="img-fluid rounded">
-                                        </a>
-                                        <a href="images/profile/2.jpg" data-exthumbimage="images/profile/2.jpg" data-src="images/profile/2.jpg" class="mb-1 col-lg-4 col-xl-4 col-sm-4 col-6">
-                                            <img src="images/profile/2.jpg" alt="" class="img-fluid rounded">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="profile-news">
-                                    <h5 class="text-primary d-inline">Our Latest News</h5>
-                                    <div class="media pt-3 pb-3">
-                                        <img src="images/profile/5.jpg" alt="image" class="me-3 rounded" width="75">
-                                        <div class="media-body">
-                                            <h5 class="m-b-5"><a href="post-details.html" class="text-black">Collection of textile samples</a></h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back, and I thought.</p>
-                                        </div>
-                                    </div>
-                                    <div class="media pt-3 pb-3">
-                                        <img src="images/profile/6.jpg" alt="image" class="me-3 rounded" width="75">
-                                        <div class="media-body">
-                                            <h5 class="m-b-5"><a href="post-details.html" class="text-black">Collection of textile samples</a></h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back, and I thought.</p>
-                                        </div>
-                                    </div>
-                                    <div class="media pt-3 pb-3">
-                                        <img src="images/profile/7.jpg" alt="image" class="me-3 rounded" width="75">
-                                        <div class="media-body">
-                                            <h5 class="m-b-5"><a href="post-details.html" class="text-black">Collection of textile samples</a></h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back, and I thought.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="col-xl-8">
@@ -202,92 +88,49 @@
                                 <div class="tab-content">
                                     <div id="my-posts" class="tab-pane fade active show" role="tabpanel">
                                         <div class="my-post-content pt-3">
-                                            <div class="post-input">
-                                                <textarea name="textarea" id="textarea" cols="30" rows="5" class="form-control bg-transparent" placeholder="Please type what you want...."></textarea>
-                                                <a href="javascript:void(0);" class="btn btn-primary light me-1 px-3" data-bs-toggle="modal" data-bs-target="#linkModal"><i class="fa fa-link m-0"></i> </a>
-                                                <!-- Modal -->
-                                                <div class="modal fade" id="linkModal">
-                                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5 class="modal-title">Social Links</h5>
-                                                                <button type="button" class="btn-close" data-bs-dismiss="modal">
-                                                                </button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <a class="btn-social facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
-                                                                <a class="btn-social google-plus" href="javascript:void(0)"><i class="fab fa-google-plus-g"></i></a>
-                                                                <a class="btn-social linkedin" href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
-                                                                <a class="btn-social instagram" href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
-                                                                <a class="btn-social twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
-                                                                <a class="btn-social youtube" href="javascript:void(0)"><i class="fab fa-youtube"></i></a>
-                                                                <a class="btn-social whatsapp" href="javascript:void(0)"><i class="fab fa-whatsapp"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void(0);" class="btn btn-primary light me-1 px-3" data-bs-toggle="modal" data-bs-target="#cameraModal"><i class="fa fa-camera m-0"></i> </a>
-                                                <!-- Modal -->
-                                                <div class="modal fade" id="cameraModal">
-                                                    <div class="modal-dialog modal-dialog-centered app-modal" role="document">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5 class="modal-title">Upload images</h5>
-                                                                <button type="button" class="btn-close" data-bs-dismiss="modal">
-                                                                </button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <div class="input-group mb-3">
-                                                                    <span class="input-group-text">Upload</span>
-                                                                    <div class="form-file">
-                                                                        <input type="file" class="form-file-input form-control">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void(0);" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#postModal">Post</a>
-                                                <!-- Modal -->
-                                                <div class="modal fade" id="postModal">
-                                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5 class="modal-title">Post</h5>
-                                                                <button type="button" class="btn-close" data-bs-dismiss="modal">
-                                                                </button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <textarea name="textarea" id="textarea2" cols="30" rows="5" class="form-control bg-transparent" placeholder="Please type what you want...."></textarea>
-                                                                <a class="btn btn-primary" href="javascript:void(0)">Post</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="profile-uoloaded-post border-bottom-1 pb-5">
-                                                <img src="images/profile/8.jpg" alt="" class="img-fluid w-100 rounded">
-                                                <a class="post-title" href="post-details.html"><h3 class="text-black">Collection of textile samples lay spread</h3></a>
-                                                <p>A wonderful serenity has take possession of my entire soul like these sweet morning of spare which enjoy whole heart.A wonderful serenity has take possession of my entire soul like these sweet morning
-                                                    of spare which enjoy whole heart.</p>
-                                                <button class="btn btn-primary me-2"><span class="me-2"><i class="fa fa-heart"></i></span>Like</button>
-                                                <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#replyModal"><span class="me-2"><i class="fa fa-reply"></i></span>Reply</button>
-                                            </div>
-                                            <div class="profile-uoloaded-post border-bottom-1 pb-5">
-                                                <img src="images/profile/9.jpg" alt="" class="img-fluid w-100 rounded">
-                                                <a class="post-title" href="post-details.html"><h3 class="text-black">Collection of textile samples lay spread</h3></a>
-                                                <p>A wonderful serenity has take possession of my entire soul like these sweet morning of spare which enjoy whole heart.A wonderful serenity has take possession of my entire soul like these sweet morning
-                                                    of spare which enjoy whole heart.</p>
-                                                <button class="btn btn-primary me-2"><span class="me-2"><i class="fa fa-heart"></i></span>Like</button>
-                                                <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#replyModal"><span class="me-2"><i class="fa fa-reply"></i></span>Reply</button>
-                                            </div>
-                                            <div class="profile-uoloaded-post pb-3">
-                                                <img src="images/profile/8.jpg" alt="" class="img-fluid w-100 rounded">
-                                                <a class="post-title" href="post-details.html"><h3 class="text-black">Collection of textile samples lay spread</h3></a>
-                                                <p>A wonderful serenity has take possession of my entire soul like these sweet morning of spare which enjoy whole heart.A wonderful serenity has take possession of my entire soul like these sweet morning
-                                                    of spare which enjoy whole heart.</p>
-                                                <button class="btn btn-primary me-2"><span class="me-2"><i class="fa fa-heart"></i></span>Like</button>
-                                                <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#replyModal"><span class="me-2"><i class="fa fa-reply"></i></span>Reply</button>
+                                            <div class="table-responsive">
+                                                <table class="table table-striped" style="width:100%">
+                                                    <tr>
+                                                        <th>Joined At:</th>
+                                                        <td>{{ date('d M, Y', strtotime($user->created_at)) }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Name:</th>
+                                                        <td>{{ $user->name }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Email:</th>
+                                                        <td>{{ $user->email }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Username:</th>
+                                                        <td>{{ $user->username }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Telephone:</th>
+                                                        <td>{{ $user->phone ? : "N/A" }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Telegram:</th>
+                                                        <td>{{ "@".$user->telegram ? : "N/A" }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Country:</th>
+                                                        <td>{{ $user->country ? : "N/A" }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>State:</th>
+                                                        <td>{{ $user->state ? : "N/A" }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>City:</th>
+                                                        <td>{{ $user->city ? : "N/A" }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Address:</th>
+                                                        <td>{{ $user->address ? : "N/A" }}</td>
+                                                    </tr>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
@@ -420,26 +263,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="replyModal">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Post Reply</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form>
-                                                <textarea class="form-control" rows="4">Message</textarea>
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Reply</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
