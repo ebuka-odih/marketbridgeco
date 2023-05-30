@@ -47,20 +47,11 @@
                             <div class="card-body">
                                 <div class="profile-statistics">
                                     <div class="text-center">
-                                        <div class="row">
-                                            <div class="col">
-                                                <h3 class="m-b-0">150</h3><span>Follower</span>
-                                            </div>
-                                            <div class="col">
-                                                <h3 class="m-b-0">140</h3><span>Place Stay</span>
-                                            </div>
-                                            <div class="col">
-                                                <h3 class="m-b-0">45</h3><span>Reviews</span>
-                                            </div>
-                                        </div>
+
                                         <div class="mt-4">
-                                            <a href="javascript:void(0);" class="btn btn-primary mb-1 me-1">Follow</a>
-                                            <a href="javascript:void(0);" class="btn btn-primary mb-1" data-bs-toggle="modal" data-bs-target="#sendMessageModal">Send Message</a>
+                                            <a href="javascript:void(0);" class="btn btn-primary mb-1 me-1 active">My Profile</a>
+                                            <a href="javascript:void(0);" class="btn btn-primary mb-1 me-1">Edit Profile</a>
+                                            <a href="javascript:void(0);" class="btn btn-primary mb-1" >Security</a>
                                         </div>
                                     </div>
                                     <!-- Modal -->
@@ -78,11 +69,14 @@
                         <div class="profile-tab">
                             <div class="custom-tab-1">
                                 <ul class="nav nav-tabs" role="tablist">
-                                    <li class="nav-item" role="presentation"><a href="#my-posts" data-bs-toggle="tab" class="nav-link active show" aria-selected="true" role="tab">Posts</a>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#my-posts"  class="nav-link active show">My Profile</a>
                                     </li>
-                                    <li class="nav-item" role="presentation"><a href="#about-me" data-bs-toggle="tab" class="nav-link" aria-selected="false" tabindex="-1" role="tab">About Me</a>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#about-me"  class="nav-link" >Edit Profile</a>
                                     </li>
-                                    <li class="nav-item" role="presentation"><a href="#profile-settings" data-bs-toggle="tab" class="nav-link" aria-selected="false" tabindex="-1" role="tab">Setting</a>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#profile-settings"  class="nav-link" >Security</a>
                                     </li>
                                 </ul>
                                 <div class="tab-content">
