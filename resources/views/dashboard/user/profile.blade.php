@@ -70,10 +70,10 @@
                             <div class="custom-tab-1">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a href="#my-posts"  class="nav-link active show">My Profile</a>
+                                        <a href="{{ route('user.profile') }}"  class="nav-link active">My Profile</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a href="#about-me"  class="nav-link" >Edit Profile</a>
+                                        <a href="{{ route('user.editProfile') }}"  class="nav-link " >Edit Profile</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <a href="#profile-settings"  class="nav-link" >Security</a>
