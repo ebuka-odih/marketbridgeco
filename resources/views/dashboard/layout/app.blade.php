@@ -244,6 +244,7 @@
                         <span class="nav-text"> Withdraw</span>
                     </a>
                 </li>
+
                 <li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
                         <div class="menu-icon mr-3">
                             <img width="22" height="22" src="{{ asset('img/history.png') }}" alt="">
@@ -264,15 +265,17 @@
                         <span class="nav-text">Trade Room</span>
                     </a>
                     <ul aria-expanded="false">
-                        <li><a href="{{ route('user.deposit.transactions') }}">Deposits</a></li>
-                        <li><a href="{{ route('user.withdraw.transactions') }}">Withdrawal</a></li>
-                        <li><a href="{{ route('user.fundingHistory') }}">Funding</a></li>
-                        <li><a href="celandar.html">Trade History</a></li>
+                        <li><a href="{{ route('user.deposit.transactions') }}">Open Trades</a></li>
+                        <li><a href="{{ route('user.withdraw.transactions') }}">Closed Trades</a></li>
                     </ul>
                 </li>
-
-
-
+                <li><a class="" href="{{ route('user.sub.plans') }}" >
+                        <div class="menu-icon mr-3">
+                            <img width="22" height="22" src="{{ asset('img2/sub.svg') }}" alt="">
+                        </div>
+                        <span class="nav-text"> Subscribe</span>
+                    </a>
+                </li>
 
             </ul>
             <div class="plus-box">
