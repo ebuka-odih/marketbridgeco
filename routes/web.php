@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.index')->name('index');
 Route::view('/the-best-online-trading-platforms', 'pages.why-us')->name('why_us');
+Route::view('/about', 'pages.about')->name('about');
+Route::view('/careers', 'pages.careers')->name('careers');
+Route::view('/platforms', 'pages.platforms.platforms')->name('platforms');
+Route::view('/platforms/das-trader-pro-online-trading-platform', 'pages.das-trader')->name('das_trader');
 
 
 Auth::routes(['verify' => true]);

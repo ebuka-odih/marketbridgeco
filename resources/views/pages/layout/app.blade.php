@@ -599,19 +599,19 @@
                                     </a>
                                 </li>
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2026" style="transition-delay: .s">
-                                    <a href="about/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2026">
+                                    <a href="{{ route('about') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2026">
                                         <span class="c-nav__link-text">About</span>
                                     </a>
                                 </li>
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2027" style="transition-delay: .s">
-                                    <a href="careers/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2027">
+                                    <a href="{{ route('careers') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2027">
                                         <span class="c-nav__link-text">Careers</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="c-nav__item c-nav__item--level-0 c-nav__item-3  menu-item menu-item-type-post_type menu-item-object-page menu-item-848 menu-item-has-children" style="transition-delay: .3s">
-                            <a href="platforms/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-848 menu-item-has-children">
+                            <a href="{{ route('platforms') }}" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-848 menu-item-has-children">
                                 <span class="c-nav__link-text">Platforms</span>
                                 <span class="c-nav__arrow c-arrow-toggle">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -621,12 +621,12 @@
                             </a>
                             <ul class="c-nav__sub-menu c-nav__sub-menu--level-0">
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2029" style="transition-delay: .s">
-                                    <a href="platforms/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2029">
+                                    <a href="{{ route('platforms') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2029">
                                         <span class="c-nav__link-text">Platforms Overview</span>
                                     </a>
                                 </li>
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2022" style="transition-delay: .s">
-                                    <a href="platforms/das-trader-pro-online-trading-platform/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2022">
+                                    <a href="{{ route('das_trader') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2022">
                                         <span class="c-nav__link-text">DAS Trader Platform</span>
                                     </a>
                                 </li>
@@ -637,7 +637,7 @@
                                 </li>
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2024" style="transition-delay: .s">
                                     <a href="platforms/cobra-traderpro/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2024">
-                                        <span class="c-nav__link-text">Cobra TraderPro</span>
+                                        <span class="c-nav__link-text">MB TraderPro</span>
                                     </a>
                                 </li>
                             </ul>

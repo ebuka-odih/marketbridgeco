@@ -32,7 +32,6 @@ class UserController extends Controller
         return view('dashboard.index', compact('trade', 'deposits', 'withdrawal', 'loss', 'bonus', 'bonus2', 'wallets', 'user'));
     }
 
-
    public function fundingHistory()
    {
        $funding = Funding::whereUserId(\auth()->id())->latest()->paginate(10);
