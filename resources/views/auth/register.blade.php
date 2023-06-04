@@ -67,7 +67,7 @@
                                         </div>
                                         <div class="form-group mb-4">
                                             <label for="username">Username</label>
-                                            <input type="text" name="name" autocomplete="off" class="form-control" id="username"  placeholder="Enter Username">
+                                            <input type="text" name="username" autocomplete="off" class="form-control" id="username"  placeholder="Enter Username">
                                         </div>
                                         <div class="form-group mb-4">
                                             <label for="exampleInputEmail1">Email address</label>
