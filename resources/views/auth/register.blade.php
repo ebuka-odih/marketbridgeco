@@ -50,7 +50,7 @@
                                         </a>
                                     </div>
                                     <h2>Hi, Welcome!</h2>
-                                    <form class="mt-4" method="POST" action="{{ route('login') }}">
+                                    <form class="mt-4" method="POST" action="{{ route('register') }}">
                                         @csrf
                                         @if ($errors->any())
                                             <div class="alert alert-danger">
@@ -76,6 +76,10 @@
                                         <div class="form-group mb-4">
                                             <label for="exampleInputPassword1">Password</label>
                                             <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <div class="form-group mb-4">
+                                            <label for="exampleInputPassword1">Confirm Password</label>
+                                            <input type="password" name="password_confirmation" class="form-control" id="exampleInputPassword1" placeholder="Password Confirmation">
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between mb-4 flex-wrap">
                                             <div class="form-check">
