@@ -45,71 +45,8 @@
     <meta property="og:image:height" content="1067" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <script type="application/ld+json" class="yoast-schema-graph">
-      {
-        "@context": "https://schema.org",
-        "@graph": [{
-          "@type": "WebPage",
-          "@id": "https://www.cobratrading.com/",
-          "url": "https://www.cobratrading.com/",
-          "name": "Best Online Day Trading Platform for Brokers & Traders | Market Bridge",
-          "isPartOf": {
-            "@id": "https://www.cobratrading.com/#website"
-          },
-          "primaryImageOfPage": {
-            "@id": "https://www.cobratrading.com/#primaryimage"
-          },
-          "image": {
-            "@id": "https://www.cobratrading.com/#primaryimage"
-          },
-          "thumbnailUrl": "https://www.cobratrading.com/wp-content/uploads/2021/03/CFS-03182021-165-1-scaled-e1622226884351.jpg",
-          "datePublished": "2021-03-02T19:18:06+00:00",
-          "dateModified": "2022-07-27T16:56:23+00:00",
-          "description": "Market Bridge offers sophisticated trading tools and support to the day traders. Capitalize on every opportunity by our service, platforms and short local availability.",
-          "breadcrumb": {
-            "@id": "https://www.cobratrading.com/#breadcrumb"
-          },
-          "inLanguage": "en-US",
-          "potentialAction": [{
-            "@type": "ReadAction",
-            "target": ["https://www.cobratrading.com/"]
-          }]
-        }, {
-          "@type": "ImageObject",
-          "inLanguage": "en-US",
-          "@id": "https://www.cobratrading.com/#primaryimage",
-          "url": "https://www.cobratrading.com/wp-content/uploads/2021/03/CFS-03182021-165-1-scaled-e1622226884351.jpg",
-          "contentUrl": "https://www.cobratrading.com/wp-content/uploads/2021/03/CFS-03182021-165-1-scaled-e1622226884351.jpg",
-          "width": 1600,
-          "height": 1067,
-          "caption": "Strike first with Market Bridge."
-        }, {
-          "@type": "BreadcrumbList",
-          "@id": "https://www.cobratrading.com/#breadcrumb",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home"
-          }]
-        }, {
-          "@type": "WebSite",
-          "@id": "https://www.cobratrading.com/#website",
-          "url": "https://www.cobratrading.com/",
-          "name": "Market Bridge",
-          "description": "",
-          "potentialAction": [{
-            "@type": "SearchAction",
-            "target": {
-              "@type": "EntryPoint",
-              "urlTemplate": "https://www.marketbridgeco.com/?s={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-          }],
-          "inLanguage": "en-US"
-        }]
-      }
-    </script>
-    <link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.minae48.css?ver=6.2' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='classic-theme-styles-css' href='{{ asset('wp-includes/css/classic-themes.minae48.css?ver=6.2') }}' type='text/css' media='all' />
     <style id='global-styles-inline-css' type='text/css'>
         body {
             --wp--preset--color--black: #000000;
@@ -448,11 +385,10 @@
             line-height: 1.6;
         }
     </style>
-    <link rel='stylesheet' id='theme-css-css' href='wp-content/themes/dod/build/bundle.06aaad54.css' type='text/css' media='all' />
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery.mina767.js?ver=3.6.3' id='jquery-core-js'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min6b00.js?ver=3.4.0' id='jquery-migrate-js'></script>
-    <link rel="https://api.w.org/" href="wp-json/index.html" />
-    <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/5.json" />
+    <link rel='stylesheet' id='theme-css-css' href='{{ asset('wp-content/themes/dod/build/bundle.06aaad54.css') }}' type='text/css' media='all' />
+    <script type='text/javascript' src='{{ asset('wp-includes/js/jquery/jquery.mina767.js?ver=3.6.3') }}' id='jquery-core-js'></script>
+    <script type='text/javascript' src='{{ asset('wp-includes/js/jquery/jquery-migrate.min6b00.js?ver=3.4.0') }}' id='jquery-migrate-js'></script>
+
     <link rel='shortlink' href='index.html' />
     <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embedfff4.json?url=https%3A%2F%2Fwww.cobratrading.com%2F" />
     <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed3036?url=https%3A%2F%2Fwww.cobratrading.com%2F&amp;format=xml" />
@@ -545,30 +481,7 @@
         <div class="l-container">
             <div class="o-header-top-bar__wrapper l-header__top-bar-wrapper">
                 <a class="o-header-top-bar__anchor-link c-btn c-btn--primary c-btn--small l-header__anchor-link" href="{{ route('register') }}" target="_self"> Request a Demo </a>
-                <div class="o-header-top-bar__call-us l-header__call-us">
-              <span class="o-header-top-bar__call-us-icon-wrapper l-header__call-us-icon-wrapper">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 41.167 41.167" style="enable-background:new 0 0 41.167 41.167;" xml:space="preserve">
-                  <g>
-                    <path style="fill:#D02A2B;" d="M33.506,36.816c0.114,0.27,0.172,0.544,0.172,0.822c0,0.385-0.102,0.743-0.307,1.077
-							c-0.204,0.333-0.491,0.588-0.859,0.764l-1.73,0.81c-0.675,0.307-1.351,0.53-2.028,0.669c-0.677,0.139-1.361,0.209-2.053,0.209
-							c-1.113,0-2.212-0.185-3.298-0.555s-2.125-0.9-3.117-1.589s-1.923-1.523-2.792-2.5c-0.869-0.978-1.648-2.068-2.335-3.271
-							c-0.438-0.667-0.898-1.428-1.381-2.283c-0.409-0.728-0.876-1.6-1.402-2.617c-0.526-1.016-1.056-2.145-1.592-3.384
-							c-0.548-1.24-0.983-2.323-1.304-3.249c-0.321-0.927-0.57-1.697-0.745-2.31c-0.205-0.716-0.346-1.33-0.423-1.841
-							c-0.282-0.949-0.49-1.893-0.623-2.832c-0.133-0.939-0.199-1.869-0.199-2.789c0-1.203,0.121-2.36,0.362-3.473
-							c0.241-1.113,0.612-2.148,1.111-3.105c0.499-0.957,1.132-1.813,1.899-2.568c0.767-0.755,1.674-1.369,2.721-1.844l1.706-0.785
-							C15.558,0.057,15.828,0,16.098,0c0.38,0,0.734,0.105,1.062,0.316c0.327,0.211,0.573,0.502,0.736,0.874l3.283,7.455
-							c0.115,0.27,0.172,0.54,0.172,0.81c0,0.397-0.102,0.764-0.307,1.101c-0.205,0.337-0.493,0.59-0.865,0.758l-3.375,1.552
-							c-0.446,0.205-0.787,0.505-1.025,0.902c-0.237,0.397-0.356,0.824-0.356,1.282c0,0.348,0.065,0.675,0.196,0.982l5.541,12.653
-							c0.217,0.487,0.516,0.845,0.899,1.074c0.382,0.229,0.799,0.344,1.249,0.344c0.307,0,0.62-0.07,0.939-0.209l3.375-1.552
-							c0.266-0.114,0.534-0.172,0.804-0.172c0.372,0,0.724,0.105,1.055,0.316c0.331,0.211,0.581,0.5,0.749,0.868L33.506,36.816z" />
-                  </g>
-                </svg>
-              </span>
-                    <div class="o-header-top-bar__call-us-phone-number l-header__call-us-phone-number">
-                        <p>Call Us Today: <a href="tel:+18777926272">877-792-6272</a>
-                        </p>
-                    </div>
-                </div>
+
             </div>
             <div class="l-header__inner">
                 <div class="l-header__logo-wrapper">
@@ -631,59 +544,18 @@
                                     </a>
                                 </li>
                                 <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2023" style="transition-delay: .s">
-                                    <a href="platforms/sterling-trader-pro-online-trading-platform/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2023">
+                                    <a href="{{ route('trader_pro') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2023">
                                         <span class="c-nav__link-text">Sterling Trader Platform</span>
-                                    </a>
-                                </li>
-                                <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2024" style="transition-delay: .s">
-                                    <a href="platforms/cobra-traderpro/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2024">
-                                        <span class="c-nav__link-text">MB TraderPro</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="c-nav__item c-nav__item--level-0 c-nav__item-4  menu-item menu-item-type-post_type menu-item-object-page menu-item-1296" style="transition-delay: .4s">
-                            <a href="futures-trading-software-platform/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-1296">
+                            <a href="{{ route('futures') }}" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-1296">
                                 <span class="c-nav__link-text">Futures</span>
                             </a>
                         </li>
-                        <li class="c-nav__item c-nav__item--level-0 c-nav__item-5  menu-item menu-item-type-post_type menu-item-object-page menu-item-847" style="transition-delay: .5s">
-                            <a href="low-cost-online-trading-platform/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-847">
-                                <span class="c-nav__link-text">Pricing</span>
-                            </a>
-                        </li>
-                        <li class="c-nav__item c-nav__item--level-0 c-nav__item-6  menu-item menu-item-type-post_type menu-item-object-page menu-item-2025" style="transition-delay: .6s">
-                            <a href="accounts/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2025">
-                                <span class="c-nav__link-text">Accounts</span>
-                            </a>
-                        </li>
-                        <li class="c-nav__item c-nav__item--level-0 c-nav__item-7  menu-item menu-item-type-post_type menu-item-object-page menu-item-846 menu-item-has-children" style="transition-delay: .7s">
-                            <a href="resources/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-846 menu-item-has-children">
-                                <span class="c-nav__link-text">Resources</span>
-                                <span class="c-nav__arrow c-arrow-toggle">
-                      <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.74421 0.744211L5.37207 5.11635L0.99993 0.744211" stroke="#D02A2B" stroke-width="2" />
-                      </svg>
-                    </span>
-                            </a>
-                            <ul class="c-nav__sub-menu c-nav__sub-menu--level-0">
-                                <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2030" style="transition-delay: .s">
-                                    <a href="resources/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2030">
-                                        <span class="c-nav__link-text">Resources Overview</span>
-                                    </a>
-                                </li>
-                                <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2021" style="transition-delay: .s">
-                                    <a href="faq/index.html" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2021">
-                                        <span class="c-nav__link-text">FAQs</span>
-                                    </a>
-                                </li>
-                                <li class="c-nav__item c-nav__item--level-1 c-nav__item-  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031" style="transition-delay: .s">
-                                    <a href="{{ route('register') }}" class="c-nav__link c-nav__link--level-1 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-2031">
-                                        <span class="c-nav__link-text">Request a Demo</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+
                     </ul>
                 </div>
                 <div class="l-header__hamburger-wrapper">

@@ -18,7 +18,9 @@ Route::view('/the-best-online-trading-platforms', 'pages.why-us')->name('why_us'
 Route::view('/about', 'pages.about')->name('about');
 Route::view('/careers', 'pages.careers')->name('careers');
 Route::view('/platforms', 'pages.platforms.platforms')->name('platforms');
-Route::view('/platforms/das-trader-pro-online-trading-platform', 'pages.das-trader')->name('das_trader');
+Route::view('/das-trader-pro-online-trading-platform', 'pages.platforms.das-trader')->name('das_trader');
+Route::view('/sterling-trader-pro-online-trading-platform', 'pages.platforms.trader_pro')->name('trader_pro');
+Route::view('/futures', 'pages.futures')->name('futures');
 
 
 Auth::routes(['verify' => true]);

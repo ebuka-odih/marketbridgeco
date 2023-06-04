@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/marketbridgeco.iml" filepath="$PROJECT_DIR$/.idea/marketbridgeco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../exclusivenftart/.idea/opennest.iml" filepath="$PROJECT_DIR$/../exclusivenftart/.idea/opennest.iml" />
     </modules>
   </component>
 </project>

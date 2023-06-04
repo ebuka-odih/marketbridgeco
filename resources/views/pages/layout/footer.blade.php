@@ -13,12 +13,7 @@
                     <p>Building 400 Carrollton, TX 75010</p>
                 </div>
                 <div class="l-footer__column-contact-data">
-                    <div class="l-footer__column-contact-detail-wrapper">
-                        <span class="l-footer__column-contact-detail-abbr">P</span>&nbsp; <a class="l-footer__column-contact-detail-link" href="tel:877-792-6272"> 877-792-6272 </a>
-                    </div>
-                    <div class="l-footer__column-contact-detail-wrapper">
-                        <span class="l-footer__column-contact-detail-abbr">F</span>&nbsp; 972-491-3111
-                    </div>
+
                     <div class="l-footer__column-contact-detail-wrapper">
                         <span class="l-footer__column-contact-detail-abbr">E</span>&nbsp; <a class="l-footer__column-contact-detail-link" href="mailto:info@marketbridgeco.com"> info@marketbridgeco.com </a>
                     </div>
@@ -27,17 +22,17 @@
                 <h6 class="l-footer__column-title"> Member </h6>
                 <ul class="l-footer__nav c-nav c-nav--footer">
                     <li class="c-nav__item c-nav__item--level-0 c-nav__item-1  menu-item menu-item-type-custom menu-item-object-custom menu-item-13" style="transition-delay: .1s">
-                        <a href="https://www.finra.org/" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-custom menu-item-object-custom menu-item-13">
+                        <a href="#" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-custom menu-item-object-custom menu-item-13">
                             <span class="c-nav__link-text">FINRA</span>
                         </a>
                     </li>
                     <li class="c-nav__item c-nav__item--level-0 c-nav__item-2  menu-item menu-item-type-custom menu-item-object-custom menu-item-14" style="transition-delay: .2s">
-                        <a href="https://www.nfa.futures.org/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-custom menu-item-object-custom menu-item-14">
+                        <a href="#" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-custom menu-item-object-custom menu-item-14">
                             <span class="c-nav__link-text">NFA</span>
                         </a>
                     </li>
                     <li class="c-nav__item c-nav__item--level-0 c-nav__item-3  menu-item menu-item-type-custom menu-item-object-custom menu-item-15" style="transition-delay: .3s">
-                        <a href="https://www.sipc.org/" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-custom menu-item-object-custom menu-item-15">
+                        <a href="#" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-custom menu-item-object-custom menu-item-15">
                             <span class="c-nav__link-text">SIPC</span>
                         </a>
                     </li>
@@ -118,21 +113,7 @@
                             <span class="c-nav__link-text">Margin Trading Risk Disclosure</span>
                         </a>
                     </li>
-                    <li class="c-nav__item c-nav__item--level-0 c-nav__item-6  menu-item menu-item-type-post_type menu-item-object-page menu-item-1276" style="transition-delay: .6s">
-                        <a href="disclosures/mvd/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-1276">
-                            <span class="c-nav__link-text">Market Volatility Disclosure</span>
-                        </a>
-                    </li>
-                    <li class="c-nav__item c-nav__item--level-0 c-nav__item-7  menu-item menu-item-type-post_type menu-item-object-page menu-item-1275" style="transition-delay: .7s">
-                        <a href="disclosures/futures-risk-disclosure/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-1275">
-                            <span class="c-nav__link-text">Futures Risk Disclosure</span>
-                        </a>
-                    </li>
-                    <li class="c-nav__item c-nav__item--level-0 c-nav__item-8  menu-item menu-item-type-post_type menu-item-object-page menu-item-1274" style="transition-delay: .8s">
-                        <a href="disclosures/606-disclosures/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-1274">
-                            <span class="c-nav__link-text">SEC Rule 606 Disclosure</span>
-                        </a>
-                    </li>
+
                 </ul>
             </div>
             <div class="l-footer__column l-footer__column--3">
@@ -229,11 +210,6 @@
                     <li class="c-nav__item c-nav__item--level-0 c-nav__item-3  menu-item menu-item-type-post_type menu-item-object-page menu-item-851" style="transition-delay: .3s">
                         <a href="about/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-851">
                             <span class="c-nav__link-text">About</span>
-                        </a>
-                    </li>
-                    <li class="c-nav__item c-nav__item--level-0 c-nav__item-4  menu-item menu-item-type-post_type menu-item-object-page menu-item-852" style="transition-delay: .4s">
-                        <a href="resources/index.html" class="c-nav__link c-nav__link--level-0 js-nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-852">
-                            <span class="c-nav__link-text">Resources</span>
                         </a>
                     </li>
                     <li class="c-nav__item c-nav__item--level-0 c-nav__item-5  menu-item menu-item-type-post_type menu-item-object-page menu-item-6895" style="transition-delay: .5s">

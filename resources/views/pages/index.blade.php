@@ -15,7 +15,7 @@
                     <div class="c-hero__secondary_title"> Serving active equity and option traders since 2004. </div>
                     <div class="c-hero__button-wrapper c-button-wrapper">
                         <a class="c-button-wrapper__btn c-button-wrapper__btn--1 c-btn c-btn--primary" href="{{ route('register') }}" target="_self"> Open an account </a>
-                        <a class="c-button-wrapper__btn c-button-wrapper__btn--2 c-btn c-btn--open-primary" href="the-best-online-trading-platforms/index.html" target="_self"> Why Market Bridge</a>
+                        <a class="c-button-wrapper__btn c-button-wrapper__btn--2 c-btn c-btn--open-primary" href="{{ route('about') }}" target="_self"> Why Market Bridge</a>
                     </div>
                 </div>
             </div>
@@ -35,19 +35,19 @@
                             <div class="c-hero__aside-img-slide-item-overlay"></div>
                         </div>
                         <div class="c-hero__aside-img-slide-item swiper-slide">
-                            <img alt="Why Market Bridge?" src="wp-content/uploads/2021/05/home-page-hero-slider-img-3.jpg" srcset="https://www.cobratrading.com/wp-content/uploads/2021/05/home-page-hero-slider-img-3.jpg 656w, https://www.cobratrading.com/wp-content/uploads/2021/05/home-page-hero-slider-img-3-300x186.jpg 300w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-2 c-img " />
+                            <img alt="Why Market Bridge?" src="{{ asset('wp-content/uploads/2021/05/home-page-hero-slider-img-3.jpg') }}" srcset="https://www.cobratrading.com/wp-content/uploads/2021/05/home-page-hero-slider-img-3.jpg 656w, https://www.cobratrading.com/wp-content/uploads/2021/05/home-page-hero-slider-img-3-300x186.jpg 300w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-2 c-img " />
                             <div class="c-hero__aside-img-slide-item-overlay"></div>
                         </div>
                         <div class="c-hero__aside-img-slide-item swiper-slide">
-                            <img alt="What current traders are saying" src="wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658.jpg" srcset="https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658.jpg 1600w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-300x200.jpg 300w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-768x512.jpg 768w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-1024x683.jpg 1024w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-1536x1024.jpg 1536w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-3 c-img " />
+                            <img alt="What current traders are saying" src="{{ asset('wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658.jpg') }}" srcset="https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658.jpg 1600w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-300x200.jpg 300w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-768x512.jpg 768w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-1024x683.jpg 1024w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-199-edited-scaled-e1625066820658-1536x1024.jpg 1536w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-3 c-img " />
                             <div class="c-hero__aside-img-slide-item-overlay"></div>
                         </div>
                         <div class="c-hero__aside-img-slide-item swiper-slide">
-                            <img alt="Our Trading Platforms" src="wp-content/uploads/2021/06/CFS-03182021-150-scaled.jpg" srcset="https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled.jpg 2560w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-300x200.jpg 300w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-768x512.jpg 768w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-1024x683.jpg 1024w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-1536x1024.jpg 1536w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-2048x1366.jpg 2048w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-4 c-img " />
+                            <img alt="Our Trading Platforms" src="{{ asset('wp-content/uploads/2021/06/CFS-03182021-150-scaled.jpg') }}" srcset="https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled.jpg 2560w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-300x200.jpg 300w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-768x512.jpg 768w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-1024x683.jpg 1024w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-1536x1024.jpg 1536w, https://www.cobratrading.com/wp-content/uploads/2021/06/CFS-03182021-150-scaled-2048x1366.jpg 2048w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-4 c-img " />
                             <div class="c-hero__aside-img-slide-item-overlay"></div>
                         </div>
                         <div class="c-hero__aside-img-slide-item swiper-slide">
-                            <img src="wp-content/uploads/2022/03/CFS-03182021-172-scaled.jpg" srcset="https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-scaled.jpg 2560w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-300x200.jpg 300w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-1024x683.jpg 1024w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-768x512.jpg 768w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-1536x1024.jpg 1536w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-2048x1365.jpg 2048w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-5 c-img " />
+                            <img src="{{ asset('wp-content/uploads/2022/03/CFS-03182021-172-scaled.jpg') }}" srcset="https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-scaled.jpg 2560w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-300x200.jpg 300w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-1024x683.jpg 1024w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-768x512.jpg 768w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-1536x1024.jpg 1536w, https://www.cobratrading.com/wp-content/uploads/2022/03/CFS-03182021-172-2048x1365.jpg 2048w" class="    c-img--srcset c-hero__img c-hero__img--side-slide-5 c-img " />
                             <div class="c-hero__aside-img-slide-item-overlay"></div>
                         </div>
                     </div>
@@ -678,9 +678,6 @@
                 </div>
                 <div class="c-dbm__content c-ct-photo-collage__content c-content  wow">
                     <p>Service to us is very personal. More than just support, we are committed to customer engagement that provides significant value.</p>
-                </div>
-                <div class="c-ct-photo-collage__info-button-wrapper wow">
-                    <a class="c-ct-photo-collage__btn  c-btn c-btn--primary" href="about/index.html" target="_self"> Meet the team </a>
                 </div>
             </div>
             <div class="c-ct-photo-collage__img-wrapper c-img-wrapper wow fadeInUp  c-ct-photo-collage__img-wrapper--photo-collage-single-img- " data-wow-duration="1s" data-wow-delay=".2s">
