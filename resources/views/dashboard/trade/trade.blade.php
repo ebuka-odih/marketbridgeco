@@ -28,7 +28,7 @@
                                 <div class="card market_chart">
                                     <div class="card-header border-0 align-items-start flex-wrap pb-0">
                                         <div>
-                                            <h2 class="heading">Futures Trade</h2>
+                                            <h2 class="heading">Market Chart</h2>
                                         </div>
                                     </div>
                                     <!-- TradingView Widget BEGIN -->
@@ -85,35 +85,98 @@
                                             <div class="mb-3">
                                                 <label class="input-group-addon">Symbol</label>
                                                 <select class="form-control" name="symbol">
-                                                    <option value="USD/EUR">USD/EUR</option>
-                                                    <option value="USD/JPY">USD/JPY</option>
-                                                    <option value="GBP/USD">GBP/USD</option>
-                                                    <option value="NZD/USD">NZD/USD</option>
-                                                    <option value="USD/CAD">USD/CAD</option>
-                                                    <option value="AUD/USD">AUD/USD</option>
-                                                    <option value="EUR/CHF">EUR/CHF</option>
+                                                    <option value="">Select Pair</option>
+                                                    <option value="AUDCAD">AUDCAD</option>
+                                                    <option value="AUDCHF">AUDCHF</option>
+                                                    <option value="AUDJPY">AUDJPY</option>
+                                                    <option value="AUDNZD">AUDNZD</option>
+                                                    <option value="AUDSGD">AUDSGD</option>
+                                                    <option value="AUDUSD">AUDUSD</option>
+                                                    <option value="CADCHF">CADCHF</option>
+                                                    <option value="CADHKD">CADHKD</option>
+                                                    <option value="CADJPY">CADJPY</option>
+                                                    <option value="CADSGD">CADSGD</option>
+                                                    <option value="EURAUD">EURAUD</option>
+                                                    <option value="EURCAD">EURCAD</option>
+                                                    <option value="EURCHF">EURCHF</option>
+                                                    <option value="EURGBP">EURGBP</option>
+                                                    <option value="EURJPY">EURJPY</option>
+                                                    <option value="EURNZD">EURNZD</option>
+                                                    <option value="EURUSD">EURUSD</option>
+                                                    <option value="EURPLN">EURPLN</option>
+                                                    <option value="EURSGD">EURSGD</option>
+                                                    <option value="EURZAR">EURZAR</option>
+                                                    <option value="GBPCAD">GBPCAD</option>
+                                                    <option value="GBPCHF">GBPCHF</option>
+                                                    <option value="GBPJPY">GBPJPY</option>
+                                                    <option value="GBPNZD">GBPNZD</option>
+                                                    <option value="GBPUSD">GBPUSD</option>
+                                                    <option value="GBPSGD">GBPSGD</option>
+                                                    <option value="GBPPLN">GBPPLN</option>
+                                                    <option value="GBPZAR">GBPZAR</option>
+                                                    <option value="NZDCAD">NZDCAD</option>
+                                                    <option value="NZDCHF">NZDCHF</option>
+                                                    <option value="NZDJPY">NZDJPY</option>
+                                                    <option value="NZDUSD">NZDUSD</option>
+                                                    <option value="NZDHKD">NZDHKD</option>
+                                                    <option value="USDCAD">USDCAD</option>
+                                                    <option value="USDCHF">USDCHF</option>
+                                                    <option value="USDJPY">USDJPY</option>
+                                                    <option value="USDMXN">USDMXN</option>
+                                                    <option value="USDSGD">USDSGD</option>
+                                                    <option value="USDTRY">USDTRY</option>
+                                                    <option value="USDTHB">USDTHB</option>
+                                                    <option value="USDZAR">USDZAR</option>
                                                 </select>
                                             </div>
                                             <div class="mb-3">
-                                                <input type="text" class="form-control input-rounded" placeholder="input-rounded">
+                                                <label class="">Amount [USD]</label>
+                                                <input type="text" class="form-control" placeholder="100">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="input-group-addon">Execution Time</label>
+                                                <select class="form-control" name="execution_time">
+                                                    <option value="60">1 Minutes</option>
+                                                    <option value="180">3 Minutes</option>
+                                                    <option value="300">5 Minutes</option>
+                                                    <option value="600">10 Minutes</option>
+                                                    <option value="1800">30 Minutes</option>
+                                                    <option value="3600">1 Hour</option>
+                                                    <option value="604800">1 Week</option>
+                                                    <option value="2628000">1 Month</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <span class="input-group-addon">Leverage</span>
+                                                <select class="form-control" name="leverage">
+                                                    <option value="5x">5x</option>
+                                                    <option value="25x">25x</option>
+                                                    <option value="50x">50x</option>
+                                                    <option value="75x">75x</option>
+                                                    <option value="100x">100x</option>
+                                                    <option value="125x">125x</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <input type="number" class="form-control" name="sl" placeholder="Stop Loss">
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <input type="number" class="form-control" name="tp" placeholder="Take Profit">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <button class="btn btn-success w-100 mt-3">Buy</button>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <button class="btn btn-primary w-100 mt-3">Sell</button>
+                                                </div>
                                             </div>
                                         </form>
-                                        <div class="selling">
-                                            <h4>Buy</h4>
-                                            <div class="form_exchange">
-                                                <div class="input_exchange">
-                                                    <input type="text" class="input-select" placeholder="Buy">
-                                                </div>
-                                                <div class="crypto-select">
-                                                    <div class="dropdown bootstrap-select image-select default-select dashboard-select dropup"><select class="image-select default-select dashboard-select" aria-label="Default" tabindex="null">
-                                                            <option selected="">Year</option>
-                                                            <option value="1">Weeks</option>
-                                                            <option value="2">Today</option>
-                                                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-3" aria-haspopup="listbox" aria-expanded="false" title="Year"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Year</div></div> </div></button><div class="dropdown-menu" style="max-height: 453.641px; overflow: hidden; min-height: 0px;"><div class="inner show" role="listbox" id="bs-select-3" tabindex="-1" aria-activedescendant="bs-select-3-0" style="max-height: 437.641px; overflow-y: auto; min-height: 0px;"><ul class="dropdown-menu inner show" role="presentation" style="margin-top: 0px; margin-bottom: 0px;"><li class="selected active"><a role="option" class="dropdown-item active selected" id="bs-select-3-0" tabindex="0" aria-setsize="3" aria-posinset="1" aria-selected="true"><span class="text">Year</span></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-1" tabindex="0"><span class="text">Weeks</span></a></li><li><a role="option" class="dropdown-item" id="bs-select-3-2" tabindex="0"><span class="text">Today</span></a></li></ul></div></div></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button class="btn btn-primary w-100 mt-3">Confirm</button>
+
                                     </div>
                                 </div>
                             </div>
