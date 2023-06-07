@@ -273,7 +273,7 @@
                     <ul aria-expanded="false">
                         <li><a href="{{ route('user.trade') }}">Trade Room</a></li>
                         <li><a href="{{ route('user.trade.history') }}">Open Trades</a></li>
-                        <li><a href="{{ route('user.withdraw.transactions') }}">Closed Trades</a></li>
+                        <li><a href="{{ route('user.closeTrades') }}">Closed Trades</a></li>
                     </ul>
                 </li>
                 <li><a class="" href="{{ route('user.sub.plans') }}" >
