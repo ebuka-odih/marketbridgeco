@@ -80,8 +80,26 @@
                                             <h4 class="count">$ @convert(auth()->user()->balance)</h4>
                                         </div>
                                     </div>
+
                                     <div class="card-body pt-0">
-                                        <form>
+                                        @if ($errors->any())
+                                            <div class="alert alert-danger">
+                                                <ul>
+                                                    @foreach ($errors->all() as $error)
+                                                        <li>{{ $error }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        @endif
+
+                                        @if(session()->has('success'))
+                                            <div class="alert alert-success" >
+                                                <strong>{{ session()->get('success') }}</strong>
+                                            </div>
+                                        @endif
+                                        <form class="dash-form" action="{{ route('user.placeTrade') }}" method="POST">
+                                            @csrf
+
                                             <div class="mb-3">
                                                 <label class="input-group-addon">Symbol</label>
                                                 <select class="form-control" name="symbol">
@@ -131,7 +149,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="">Amount [USD]</label>
-                                                <input type="text" class="form-control" placeholder="100">
+                                                <input type="text" name="amount" class="form-control" placeholder="100">
                                             </div>
                                             <div class="mb-3">
                                                 <label class="input-group-addon">Execution Time</label>
@@ -169,10 +187,10 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <button class="btn btn-success w-100 mt-3">Buy</button>
+                                                    <button class="btn btn-success w-100 mt-3" name="type" value="buy">Buy</button>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <button class="btn btn-primary w-100 mt-3">Sell</button>
+                                                    <button class="btn btn-primary w-100 mt-3" name="type" value="sell">Sell</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -186,6 +204,60 @@
                         <!--/row-->
                     </div>
                     <!--/column-->
+                    <div class="row">
+                        <div class="col-xl-12 wow fadeInUp" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;">
+                            <div class="card lastest_trans">
+
+                                <div class="card-body py-0">
+                                    <div class="table-responsive">
+                                        <table class="table table-responsive-md">
+                                            <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Symbol</th>
+                                                <th>Amount</th>
+                                                <th>Leverage</th>
+                                                <th>Time Frame</th>
+                                                <th>TP/SL</th>
+                                                <th>Status</th>
+                                                <th>Progress</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            @foreach($trades as $item)
+                                                <tr>
+                                                    <td>{{ $item->created_at }}</td>
+                                                    <td>{{ $item->symbol }} {!! $item->type() !!}</td>
+                                                    <td>$@convert($item->amount)</td>
+                                                    <td>{{ $item->leverage }}</td>
+                                                    <td>{{ $item->execution_time }} Secs</td>
+                                                    <td>{{ $item->tp ? : "" }}/ {{ $item->sl ? : "" }}</td>
+                                                    <td class="-pull-right">{!! $item->status() !!}</td>
+                                                    @if($item->percent != 100)
+                                                        <td class="pull-right text-danger">{{ $item->percent ? : "1" }}%</td>
+                                                    @else
+                                                        <td class="pull-right text-success">{{ $item->percent  }}%</td>
+                                                    @endif
+                                                </tr>
+                                            @endforeach
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <div class="table-pagenation pt-3 mt-0">
+                                    <nav>
+                                        <ul class="pagination pagination-gutter pagination-danger no-bg">
+                                            {!! $trades->links() !!}
+
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/column-->
+                    </div>
                 </div>
             </div>
         </div>

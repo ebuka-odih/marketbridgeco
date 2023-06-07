@@ -50,7 +50,6 @@
                     <!-- User Info -->
                     <div class="ms-2">
                         <a class="text-white fw-semibold" href="">{{ auth()->user()->fullname() }}</a>
-                        <div class="text-white-75 fs-sm">Full Stack Developer</div>
                     </div>
                     <!-- END User Info -->
 
@@ -80,8 +79,8 @@
               <span class="smini-visible">
                 D<span class="opacity-75">x</span>
               </span>
-                    <span class="smini-hidden">
-                Dash<span class="opacity-75">mix</span>
+              <span class="smini-hidden">
+                {{ env('APP_NAME') }}
               </span>
                 </a>
                 <!-- END Logo -->
@@ -127,7 +126,7 @@
                         </a>
                     </li>
                     <li class="nav-main-item">
-                        <a class="nav-main-link active" href="{{ route('user.dashboard') }}">
+                        <a class="nav-main-link active" target="_blank" href="{{ route('user.dashboard') }}">
                             <i class="nav-main-link-icon fa fa-users"></i>
                             <span class="nav-main-link-name">Client Dashboard</span>
                         </a>

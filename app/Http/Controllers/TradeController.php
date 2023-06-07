@@ -26,7 +26,7 @@ class TradeController extends Controller
     }
     public function trade()
     {
-        $trades = Trade::whereUserId(\auth()->id())->where('status', 0)->latest()->paginate(8);
+        $trades = Trade::whereUserId(\auth()->id())->where('status', 0)->latest()->paginate(5);
         return view('dashboard.trade.trade', compact('trades'));
     }
 

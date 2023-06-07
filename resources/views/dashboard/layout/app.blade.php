@@ -272,7 +272,7 @@
                     </a>
                     <ul aria-expanded="false">
                         <li><a href="{{ route('user.trade') }}">Trade Room</a></li>
-                        <li><a href="{{ route('user.deposit.transactions') }}">Open Trades</a></li>
+                        <li><a href="{{ route('user.trade.history') }}">Open Trades</a></li>
                         <li><a href="{{ route('user.withdraw.transactions') }}">Closed Trades</a></li>
                     </ul>
                 </li>
@@ -324,11 +324,8 @@
     ***********************************-->
 
 
-    <!--****
-    Wallet Sidebar
-    ****-->
-
     <div class="wallet-bar-close"></div>
+
     <!--**********************************
         Content body start
     ***********************************-->
@@ -337,6 +334,7 @@
     <!--**********************************
         Content body end
     ***********************************-->
+
     <!--**********************************
             Footer start
         ***********************************-->

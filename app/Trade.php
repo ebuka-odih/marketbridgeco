@@ -34,4 +34,13 @@ class Trade extends Model
         }
     }
 
+    public function type()
+    {
+        if ($this->type == 1)
+        {
+            return '<span class="badge bg-success">Buy</span>';
+        }
+        return '<span class="badge bg-danger">Sell</span>';
+    }
+
 }
