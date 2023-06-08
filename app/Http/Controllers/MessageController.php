@@ -11,7 +11,7 @@ class MessageController extends Controller
     public function index()
     {
         $messages = Message::whereUserId(auth()->id())->latest()->paginate(10);
-       return view('dashboard.user.message', compact('messages'));
+       return view('dashboard.user.messages', compact('messages'));
     }
 
 

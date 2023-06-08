@@ -61,6 +61,8 @@
                                                 </ul>
                                             </div>
                                         @endif
+                                        <input type="hidden" name="referred_by" value="{{ request()->id}}" />
+
                                         <div class="form-group mb-4">
                                             <label for="name">Name</label>
                                             <input type="text" name="name" class="form-control" id="name"  placeholder="Enter Fullname">

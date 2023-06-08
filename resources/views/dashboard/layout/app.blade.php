@@ -276,11 +276,20 @@
                         <li><a href="{{ route('user.closeTrades') }}">Closed Trades</a></li>
                     </ul>
                 </li>
-                <li><a class="" href="{{ route('user.sub.plans') }}" >
+                <li>
+                    <a class="" href="{{ route('user.sub.plans') }}" >
                         <div class="menu-icon mr-3">
                             <img width="22" height="22" src="{{ asset('img2/sub.svg') }}" alt="">
                         </div>
                         <span class="nav-text"> Subscribe</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="{{ route('user.message.index') }}" >
+                        <div class="menu-icon mr-3">
+                            <img width="22" height="22" src="{{ asset('img2/sub.svg') }}" alt="">
+                        </div>
+                        <span class="nav-text"> Message <span class="badge badge-danger">{{ auth()->user()->messageCount() }}</span></span>
                     </a>
                 </li>
 
