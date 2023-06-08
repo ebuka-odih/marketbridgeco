@@ -25,7 +25,7 @@ class AdminSeeder extends Seeder
                 'profit' => 600000,
                 'email' => 'admin@marketbridgeco.com',
                 'email_verified_at' => \Carbon\Carbon::now(),
-                'password' => Hash::make('MarketBRIGDE112'),
+                'password' => Hash::make('MarketBRIGDE11244'),
             ]);
         }
     }
