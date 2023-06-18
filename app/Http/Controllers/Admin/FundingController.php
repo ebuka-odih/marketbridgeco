@@ -27,17 +27,23 @@ class FundingController extends Controller
             $user->ref_bonus += $request->amount;
             $user->balance += $request->amount;
             $user->save();
+            Mail::to($data->user->email)->send(new FundingMail($data));
+            return redirect()->back()->with('success', "Fund sent successfully");
         }elseif($data['type'] == 'Loss'){
             $user = User::findOrFail($data->user_id);
             $user->balance -= $request->amount;
             $user->save();
+            Mail::to($data->user->email)->send(new FundingMail($data));
+            return redirect()->back()->with('success', "Fund sent successfully");
+        }elseif($data['type'] == 'Profit'){
+            $user = User::findOrFail($data->user_id);
+            $user->balance += $request->amount;
+            $user->profit += $request->amount;
+            $user->save();
+            Mail::to($data->user->email)->send(new FundingMail($data));
+            return redirect()->back()->with('success', "Fund sent successfully");
         }
-        $user = User::findOrFail($data->user_id);
-        $user->balance += $request->amount;
-        $user->profit += $request->amount;
-        $user->save();
-        Mail::to($data->user->email)->send(new FundingMail($data));
-        return redirect()->back()->with('success', "Fund sent successfully");
+        return redirect()->back()->with('declined', "Fund not sent successfully");
     }
 
     protected function getData(Request $request)
