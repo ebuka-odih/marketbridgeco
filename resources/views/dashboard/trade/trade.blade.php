@@ -149,7 +149,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="">Amount [USD]</label>
-                                                <input type="text" name="amount" class="form-control" placeholder="100">
+                                                <input type="number" name="amount" class="form-control" placeholder="100">
                                             </div>
                                             <div class="mb-3">
                                                 <label class="input-group-addon">Execution Time</label>
