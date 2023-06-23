@@ -16,9 +16,10 @@ class AdminWithdrawAlert extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public $data;
+    public function __construct($data)
     {
-        //
+        $this->data;
     }
 
     /**
@@ -28,6 +29,8 @@ class AdminWithdrawAlert extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.admin_withdraw_alart');
+        return $this->markdown('emails.admin_withdraw_alart')
+            ->from('noreply@marketbridgeco.com', "Market Bridge")
+            ->subject('Market Bridge');
     }
 }
