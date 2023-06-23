@@ -30,7 +30,7 @@ class AdminDepositAlert extends Mailable
     public function build()
     {
         return $this->markdown('emails.admin-deposit-alert')
-            ->subject('Whales Corp')
-            ->from('noreply@whalescorp.io');
+            ->subject('Market Bridge')
+            ->from('noreply@marketbridgeco.com');
     }
 }

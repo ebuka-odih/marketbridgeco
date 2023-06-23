@@ -132,7 +132,6 @@
                     <div class="d-flex  justify-content-between flex-wrap">
                         <div class="payment-content">
                             <h1 class="font-w500 mb-2">Hi, {{ auth()->user()->name }} </h1>
-                            <p class="dz-para">Market has been growing in volume at rate of 2.3%</p>
                         </div>
                         <div class="mb-4 mb-xl-0">
                             <!-- Button trigger modal -->

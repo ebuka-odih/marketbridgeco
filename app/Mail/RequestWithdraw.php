@@ -30,7 +30,7 @@ class RequestWithdraw extends Mailable
     public function build()
     {
         return $this->markdown('emails.request_withdraw')
-            ->from('noreply@whalescorp.io', "Whales Corp")
-            ->subject('Whales Corp');
+            ->from('noreply@marketbridgeco.com', "Market Bridge")
+            ->subject('Market Bridge');
     }
 }
