@@ -88,6 +88,7 @@
                                     </select>
                                 </div>
                             </div>
+
                             <div class="col-lg-6 col-xl-6">
                                 <div class="mb-4">
                                     <label class="form-label" for="example-email-input">Amount</label>
